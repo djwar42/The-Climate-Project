@@ -1,0 +1,232 @@
+{
+  "date": "2026-08-10",
+  "title": "One El Nino, four numbers: the index NOAA changed in February, and a September figure we will be scored on",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Very little was published this week, and this round says so rather than inflating what it found. World Weather Attribution's newest study is still 30 July. WMO's newest climate item is still 31 July. Copernicus has no August bulletin folder. NOAA NCEI has still not published July. So instead of dispatching the same figures as the 8 August round two days later, this one goes to the instruments and to a change in the official record that went out in January and has been covered nowhere: since 1 February 2026 the United States has monitored El Nino with a different index, and the same El Nino now has four different published numbers depending on which file you open. A note on dates: this round covers 9 August 2026 and every read below was made on 10 August 2026 UTC, which is why the sea ice series has a 9 August value at all."
+    },
+    {
+      "type": "h",
+      "text": "FIRST, THE PROOF THAT THE WEEK WAS THIN"
+    },
+    {
+      "type": "observed",
+      "text": "Checked on 2026-08-10, all with a browser User-Agent and all returning HTTP 200 except where stated. World Weather Attribution's analyses index has the France and Spain wildfire study of 30 July 2026 as its newest item, with the Europe drought study of 23 July behind it. The WMO news portal's newest climate item is 'Strong El Nino expected to intensify', 31 July 2026; the only thing newer on the whole portal is a member award notice dated 3 August. The C3S bulletin file server has no 202608 directory, which returns 404, so there is no August bulletin. NOAA NCEI's global monthly report for 202607 still returns 404, one day past the date yesterday's round estimated it would appear. NSIDC publishes no melt-season analysis at all this year, its monthly posts having been discontinued on 15 October 2025."
+    },
+    {
+      "type": "observed",
+      "text": "NASA GISS answers again, and the answer is that July is not there. The 8 August round could not reach data.giss.nasa.gov at all across repeated attempts. On 2026-08-10 the GISTEMP v4 global table returned HTTP 200 on the first try. Its own source line reads 'GHCN-v4 1880-06/2026 + SST: ERSST v5 1880-06/2026', and the 2026 row runs January 1.08, February 1.25, March 1.32, April 1.17, May 1.13, June 1.18 °C above 1951-1980, with July onward printed as asterisks. Our own gistemp-monthly series ends at June 2026 on 1.18 and matches GISS exactly."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading of all of that, and the correct one: it is a calendar. Monthly products publish on schedules, this round sits in the gap between them, and a fetch that failed on 8 August and succeeded on 10 August is a fact about a network path, not about a dataset. Nothing here is evidence that anyone has stopped publishing. The one genuine loss on the list, NSIDC's analysis posts, was already recorded a year ago and has a funding cause, not a data cause."
+    },
+    {
+      "type": "h",
+      "text": "ONE EL NINO, FOUR NUMBERS: THE OFFICIAL INDEX CHANGED AND NOBODY SAID SO"
+    },
+    {
+      "type": "observed",
+      "text": "NOAA National Weather Service Public Information Statement 26-05, issued 13 January 2026 by NWS Headquarters, announced that the NCEP Climate Prediction Center would shift to a Relative Oceanic Nino Index for the official monitoring and prediction of ENSO, effective 1 February 2026. RONI is the Nino 3.4 sea surface temperature anomaly with the average anomaly of the global tropics, 20°N to 20°S, subtracted from it, then rescaled to match the amplitude of the traditional index and smoothed with a three-month running mean. The El Nino and La Nina thresholds stay at plus and minus 0.5 °C over five consecutive overlapping seasons. The statement says the legacy Nino 3.4 and ONI files will keep being updated for continuity, and that 'the RONI is visually very similar to the traditional ONI, so users can use it in the same way'."
+    },
+    {
+      "type": "observed",
+      "text": "The stated reasons, from the same statement: a relative index is less sensitive to the chosen base climatology, which allows comparison of events across the whole record, and it tracks tropical Pacific rainfall better than the traditional index does, because rainfall responds to how warm the central Pacific is relative to the rest of the tropics rather than to its absolute anomaly. CPC's own ENSO deck states the operational definition in the new terms: El Nino is a positive RONI of 0.5 °C or more."
+    },
+    {
+      "type": "observed",
+      "text": "A second change landed six days ago and is stated only inside a slide deck. CPC's weekly ENSO update prepared 3 August 2026 carries the note, dated 22 June, that 'in the afternoon on Aug. 3rd, the ERSSTv5 will switch to ERSSTv6 because NCEI is discontinuing ERSSTv5. RONI values will change slightly. The weekly OISSTv2.1 data will remain unaffected.' The old ONI page at ensostuff/ONI_v5.php now redirects readers to an ERSST version 6 table at a new address. Both files used below were read after that switch."
+    },
+    {
+      "type": "observed",
+      "text": "Four published numbers for the same El Nino, all read on 2026-08-10. Weekly Nino 3.4 SST anomaly on OISSTv2.1 against 1991-2020, week centred 5 August 2026: +2.6 °C, with Nino 1+2 at +4.1, Nino 3 at +3.1 and Nino 4 at +1.1. CPC's weekly deck of 3 August prints its Nino-region departures as Nino 4 +0.2, Nino 3.4 +1.5, Nino 3 +2.1, Nino 1+2 +3.2. The Oceanic Nino Index file gives May-June-July 2026 as +1.39. The Relative Oceanic Nino Index file gives the same season as +0.98. WMO's forecast of 31 July, already in the record here, is for seasonal-average anomalies exceeding +2.9 °C in the key monitoring regions during August to October."
+    },
+    {
+      "type": "observed",
+      "text": "CPC's ENSO Diagnostic Discussion of 9 July 2026 holds an El Nino Advisory and states an 81% chance of a very strong El Nino during October to December, which it says would rank among the largest events in the record back to 1950, and a 97% chance the event persists through early spring 2027. The next diagnostic discussion is scheduled for 13 August 2026."
+    },
+    {
+      "type": "inference",
+      "text": "Our reading of the deck's numbers, and it is a deduction rather than a citation: the deck's four Nino-region values sit 0.7 to 0.9 °C below the raw weekly file for the week it was prepared from (the file gives +1.0, +2.3, +2.8, +4.1 for the week centred 29 July against the deck's +0.2, +1.5, +2.1, +3.2). A near-uniform offset across four regions of very different size is what subtracting a single tropical-mean anomaly looks like, so we read the deck as printing relative departures and the raw file as printing traditional ones. We could not find a published weekly RONI text file to confirm this directly, only the monthly ones, so we are stating the arithmetic and our conclusion from it, not a CPC statement."
+    },
+    {
+      "type": "inference",
+      "text": "Our own measurement on CPC's two index files, computed on 2026-08-10 over the 918 seasons both cover, DJF 1950 to MJJ 2026. The gap between the legacy ONI and the new official RONI has a Theil-Sen trend of +0.069 °C per decade, with a Mann-Kendall Z of 21.7. By decade the mean gap runs -0.173 in the 1950s, -0.093 in the 1960s, -0.172 in the 1970s, -0.003 in the 1980s, -0.107 in the 1990s, +0.012 in the 2000s, +0.223 in the 2010s and +0.441 so far in the 2020s. That is a swing of 0.61 °C between the first decade and the current one, and it is not a discovery about the ocean: it is what the index was built to do, which is to remove the tropical background warming so that El Ninos in different decades can be compared. The gap is a rescaled reading of the tropical warming itself."
+    },
+    {
+      "type": "inference",
+      "text": "The consequence, and it is the part worth publishing: the change re-ranks the historical events. At their peak seasons the four great El Ninos read ONI 2.14 against RONI 2.40 for 1982-83, ONI 2.37 against RONI 2.28 for 1997-98, ONI 2.59 against RONI 2.25 for 2015-16, and ONI 1.99 against RONI 1.40 for 2023-24. On the legacy index the largest event since 1950 is 2015-16. On the index the United States now monitors with, the largest event since 1950 is 1982-83, and 2015-16 falls to fifth. A reader who takes 'the strongest El Nino on record' from an archived page and checks it against the current official file will find the two disagree, and neither is wrong."
+    },
+    {
+      "type": "inference",
+      "text": "One more detail that will matter within weeks, given the 13 August discussion. On the legacy ONI the current event's run of seasons at or above +0.5 began in April-June 2026, at +0.95. On RONI it began one season later, in May-June-July, because April-June came in at +0.49. The official El Nino is a season younger than the legacy one, and any statement of the form 'the Nth month of El Nino conditions' now depends on which file it was counted from."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading of the index story, and it deserves equal weight: nothing about the Pacific changed on 1 February 2026. This is a definitional change, announced properly in a public information statement, with the legacy files deliberately kept alive so that nobody's time series breaks. The re-ranking above is arithmetic on two conventions, not new information about 1982 or 2015. Two honest caveats on our own trend figure as well. The rescaling step means the ONI minus RONI difference is a scaled function of the tropical mean anomaly and not the tropical mean anomaly itself, so the +0.069 °C per decade is a property of the pair of indices rather than a measurement of tropical SST. And we read both files after the ERSST v5 to v6 switch of 3 August without controlling for it, so a small part of the recent end of that series could be the reconstruction version rather than the ocean. The decadal swing of 0.61 °C and the 1983-over-2015 flip are both far too large to be that, but the trend's last digit is not defended."
+    },
+    {
+      "type": "h",
+      "text": "WHAT THE FORECAST IS WORTH IN THE GLOBAL TEMPERATURE RECORD"
+    },
+    {
+      "type": "inference",
+      "text": "Our own regression, computed on 2026-08-10, joining WMO's forecast to this project's own temperature series. We took our gistemp-annual series, removed a centred eleven-year running mean from it to leave the year-to-year residual, and regressed that residual on the December-January-February Nino 3.4 anomaly centred on January of the same year, using NOAA PSL's monthly Nino 3.4 on ERSSTv6 against a 1981-2010 base. Over 1951 to 2020, n = 70, the correlation is 0.563, r-squared 0.317, and the slope is 0.057 °C of annual global mean temperature per °C of DJF Nino 3.4, with a residual standard deviation of 0.075 °C. A DJF 2027 Nino 3.4 anomaly of +2.9 °C would therefore put 2027 about 0.17 °C above its own eleven-year smooth."
+    },
+    {
+      "type": "inference",
+      "text": "Read that as a floor rather than a centre. The same fit under-predicted both of the events it should have caught: 1998 came in at +0.163 °C above its smooth against a predicted +0.103, and 2016 at +0.174 against a predicted +0.122. Whatever makes a big El Nino year hotter than the average El Nino relationship implies, our regression does not contain it. Neither does this project's two-box energy balance model, which takes forcing as its only input and has no ENSO in it at all: when 2027's annual mean arrives, the amount by which it overshoots that model's hindcast is not a defect in the model, it is the El Nino, and we will report it that way."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading, and it is most of the story: an r-squared of 0.317 means the Pacific explains about a third of the year-to-year wobble in the global mean and something else explains the other two thirds. An eleven-year running mean is not the forced trend, it is a smoother, and near the end of a series it is not even centred. And the +2.9 °C we fed in is on a different base and a different dataset from the index the fit was built on, which is precisely the confusion the section above is about. Take the 0.17 °C as an order of magnitude for what a very strong El Nino does to a single year, not as a forecast of 2027."
+    },
+    {
+      "type": "chart",
+      "series": "gistemp-annual",
+      "caption": "GISTEMP annual global mean surface temperature anomaly, °C against 1951-1980 (NASA GISS), 1880 to 2025, ending at 1.19 °C. The regression above works on the residual of this line from its own eleven-year smooth, which is the small up-and-down you can see riding on the trend: the spikes at 1998, 2016 and 2024 are the El Nino years, and the dips a year or two after them are the La Ninas."
+    },
+    {
+      "type": "h",
+      "text": "THE ARCTIC MELT SEASON, NARRATED, WITH A NUMBER WE WILL BE SCORED ON"
+    },
+    {
+      "type": "observed",
+      "text": "Arctic sea ice extent on 9 August 2026: 6.031 million square kilometres, read by us on 2026-08-10 from the NSIDC Sea Ice Index version 4 daily Arctic file. That is the 11th lowest 9 August in the 43 years of the record, and 0.647 million square kilometres, or 9.7%, below the 1991-2020 median for the date of 6.678. The run of days since yesterday's round: 6.180 on 6 August, 6.131 on the 7th, 6.042 on the 8th, 6.031 on the 9th. The five lowest 9 Augusts on record are 2012 at 5.088, 2019 at 5.303, 2024 at 5.446, 2020 at 5.579 and 2025 at 5.689."
+    },
+    {
+      "type": "observed",
+      "text": "The pace of melt, computed by us from the same file. Over the fourteen days to 9 August 2026 the ice lost 0.0540 million square kilometres per day, against a 1991-2020 mean rate for the same fourteen-day window of 0.0767 with a standard deviation of 0.0172. Over seven days, 0.0640 against a climatological 0.0695. Over thirty days, 0.0782 against 0.0832. On the fourteen-day window this melt season is running about 1.3 standard deviations slower than the 1991-2020 norm for the date."
+    },
+    {
+      "type": "inference",
+      "text": "Our projection of the September 2026 monthly mean, put on the record now so that it can be scored in about five weeks. We regressed each year's September monthly mean on that year's 9 August extent, 1988 to 2025, n = 38: September = -1.7702 + 1.0826 times the 9 August value, r-squared 0.935, residual standard deviation 0.276. Feeding in 6.031 gives a September 2026 monthly mean of 4.76 million square kilometres, with a one-sigma band of 4.48 to 5.04. A simpler cross-check, the mean 9-August-to-September drop over 2007 to 2025, gives 4.70 with a band of 4.45 to 4.95. September 2025 was 4.75, so our expectation is that this year lands essentially on top of last year."
+    },
+    {
+      "type": "inference",
+      "text": "And a stronger statement, because it is arithmetic rather than statistics: a record low September is out of reach this year. Matching September 2012's 3.57 million square kilometres from 6.031 on 9 August would require a drop of 2.47 million square kilometres, and the largest 9-August-to-September drop in the 38 years we can measure is 1.79. Whatever the rest of this melt season does, it is not going to set a record, and anyone who tells you in three weeks that it might should be asked for the loss rate that would be needed."
+    },
+    {
+      "type": "observed",
+      "text": "A check on our own holdings while we were in the file. We recomputed all 39 September monthly means from NSIDC's daily extent file and compared them against this project's sea-ice-arctic-september series: the largest disagreement across 39 years is 0.005 million square kilometres and the mean disagreement is 0.003. Our series is what it says it is."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading of the ice, which is most of it. Eleventh lowest of 43 is unremarkable inside the last fifteen years, and higher on the same date than 2012, 2019, 2020, 2024 and 2025. A slow fortnight in August is weather, most often a cloudy or calm spell, and the thirty-day rate is barely below normal. The 9.7% deficit is measured against a 1991-2020 median that is itself already a warmed baseline, so it understates the change against the early record. The AMSR2 instrument that has produced every day since 1 January 2025 places the ice edge slightly inboard of the sensor that produced the previous forty-six years, which nudges recent values down. And our projection is a statistical relation between two numbers, not a sea ice model: it contains no wind, no ocean heat, no floe thickness, and it would miss a 2012-style August storm entirely."
+    },
+    {
+      "type": "mundane",
+      "text": "One more distinction, because it has already caught this project once. Everything projected above is a September MONTHLY MEAN, which is the quantity our chart holds. It is not the annual daily minimum, which is a five-day average on a single date and always lower: in 2025 the September monthly mean was 4.75 while the daily minimum was 4.543. When NSIDC announces the 2026 minimum later in September it will be announcing the daily figure, and it will not be the number we have predicted here."
+    },
+    {
+      "type": "chart",
+      "series": "sea-ice-arctic-september",
+      "caption": "Arctic sea ice extent, September monthly mean, million square kilometres (NSIDC Sea Ice Index v4), 1979 to 2025, ending at 4.75. The next point on this line is the one this round predicts at 4.76, one-sigma band 4.48 to 5.04, from a 9 August extent of 6.031. The record low is 2012 at 3.57. Note the instrument change from DMSP passive microwave to AMSR2 at the start of 2025, near the right-hand end."
+    },
+    {
+      "type": "h",
+      "text": "THE ANTARCTIC WINTER, WHICH NOBODY IS WATCHING AT ALL"
+    },
+    {
+      "type": "observed",
+      "text": "Antarctic sea ice extent on 9 August 2026, mid-winter and growing toward a September maximum: 16.085 million square kilometres, read by us on 2026-08-10 from the NSIDC Sea Ice Index version 4 daily Antarctic file. That is the 4th lowest 9 August in 43 years and 1.479 million square kilometres, or 8.4%, below the 1991-2020 median for the date of 17.564. The four lowest 9 Augusts in the record are 2023 at 15.087, 2024 at 16.045, 2025 at 16.073 and 2026 at 16.085. They are the last four years, consecutively, and the last three of them fall within 0.04 million square kilometres of each other."
+    },
+    {
+      "type": "inference",
+      "text": "Our reading: the interesting thing here is not the rank, it is the shape. Four consecutive years occupying the four lowest slots for the same calendar date in a 43-year record is not a run of unlucky winters, it is what a distribution looks like after it has moved. The Antarctic did this abruptly, dropping out of its old range around 2016, and the winters since 2023 have sat in a new and much tighter cluster more than one and a half million square kilometres below the old median. This gets a fraction of the attention the Arctic melt season gets, and the reason is that the Antarctic record is short, noisy and until recently trendless, so there is no accumulated public story for it to be part of. That is a fact about the audience, not about the ice."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading, and there are three of them. The 9 August value fell 0.207 million square kilometres in a single day from a preliminary single-file read, which is the sort of one-day step that gets revised, so the exact rank could move. Two of the four years in that cluster, 2025 and 2026, sit on the AMSR2 sensor while the other forty-one years do not, and AMSR2 reads slightly smaller, which flatters exactly this kind of finding. And a mid-winter date is not the maximum: the Antarctic is scored in September, not August, and 2026's maximum has not happened yet."
+    },
+    {
+      "type": "chart",
+      "series": "sea-ice-antarctic-february",
+      "caption": "Antarctic sea ice extent, February monthly mean, million square kilometres (NSIDC Sea Ice Index v4), 1979 to 2026, ending at 2.91. This is the SUMMER MINIMUM series and it is not the winter figure discussed above: this project holds no August Antarctic series, and the 16.085 on 9 August was computed by us from the daily file. The chart is here because it shows the same regime change from the other end of the year, the step down after 2016 that the winter numbers are also sitting in."
+    },
+    {
+      "type": "h",
+      "text": "WHAT THIS ROUND COULD NOT ESTABLISH"
+    },
+    {
+      "type": "p",
+      "text": "Six things, named rather than smoothed over. There is still no July 2026 figure from any surface temperature dataset: GISS prints asterisks, NCEI's report 404s two days past the date the 8 August round estimated, and the ERA5 value of 1.4711 °C therefore still stands with no independent cross-check. We could not find a published weekly RONI file, so our conclusion that CPC's deck prints relative departures rests on a uniform 0.8 °C offset we computed rather than on a CPC statement. We did not control for the ERSST v5 to v6 switch of 3 August in the ONI-minus-RONI trend, and we say so above rather than quoting the number bare. Our El Nino to global temperature regression under-predicts the two biggest events in its own training period, which is the honest reason to read its output as a floor. The September projection has no physics in it whatsoever. And the whole index story is US-national: we have not checked whether WMO, the Bureau of Meteorology or JMA have made or intend to make the same change, and until we do, the four numbers stay four numbers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NOAA NWS Public Information Statement 26-05, 13 January 2026: Implementing a Relative Oceanic Nino Index effective February 1, 2026 (PDF)",
+      "url": "https://www.weather.gov/media/notification/pdf_2026/pns26-05_Relative_ONI.pdf"
+    },
+    {
+      "title": "NOAA CPC - Relative Oceanic Nino Index (RONI), seasonal values 1950 to present (RONI.ascii.txt)",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt"
+    },
+    {
+      "title": "NOAA CPC - monthly relative Nino 3.4 index used to build RONI (Rnino34.ascii.txt)",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/Rnino34.ascii.txt"
+    },
+    {
+      "title": "NOAA CPC - legacy Oceanic Nino Index, seasonal values 1950 to present (oni.ascii.txt)",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt"
+    },
+    {
+      "title": "NOAA CPC - Oceanic Nino Index table on ERSST version 6 (the address the old ONI_v5 page now redirects to)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/oni/v6/"
+    },
+    {
+      "title": "NOAA CPC - weekly Nino region SST and anomalies, OISSTv2.1 against 1991-2020 (wksst9120.for)",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for"
+    },
+    {
+      "title": "NOAA CPC - ENSO: Recent Evolution, Current Status and Predictions, weekly deck prepared 3 August 2026 (PDF)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"
+    },
+    {
+      "title": "NOAA CPC - ENSO Diagnostic Discussion, 9 July 2026 (El Nino Advisory; next issue 13 August 2026)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+    },
+    {
+      "title": "NOAA CPC - RONI product page",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/"
+    },
+    {
+      "title": "NOAA CPC - figure comparing the legacy ONI and RONI, 1950 to present",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/compare_RONI_ONI.png"
+    },
+    {
+      "title": "NOAA PSL - monthly Nino 3.4 SST anomaly, ERSST V6 against 1981-2010 (nina34.anom.data)",
+      "url": "https://psl.noaa.gov/data/correlation/nina34.anom.data"
+    },
+    {
+      "title": "NASA GISS - GISTEMP v4 global land-ocean temperature index table (GLB.Ts+dSST.txt), reachable again 2026-08-10 and ending at June 2026",
+      "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt"
+    },
+    {
+      "title": "NSIDC Sea Ice Index v4 - Arctic daily extent file (N_seaice_extent_daily_v4.0.csv)",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02135/north/daily/data/N_seaice_extent_daily_v4.0.csv"
+    },
+    {
+      "title": "NSIDC Sea Ice Index v4 - Antarctic daily extent file (S_seaice_extent_daily_v4.0.csv)",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02135/south/daily/data/S_seaice_extent_daily_v4.0.csv"
+    },
+    {
+      "title": "NSIDC Sea Ice Today - service reduction notice and current status (no melt-season analysis this year)",
+      "url": "https://nsidc.org/sea-ice-today"
+    },
+    {
+      "title": "WMO press release, 31 July 2026: Strong El Nino expected to intensify (still the newest WMO climate item on 2026-08-10)",
+      "url": "https://wmo.int/news/media-centre/strong-el-nino-expected-intensify"
+    },
+    {
+      "title": "World Weather Attribution - analyses index, newest study still 30 July 2026 when read 2026-08-10",
+      "url": "https://www.worldweatherattribution.org/"
+    },
+    {
+      "title": "NOAA NCEI Monthly Climate Reports - the July 2026 global report still returned HTTP 404 on 2026-08-10",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/"
+    }
+  ],
+  "knowledge": "Established that the United States changed its official ENSO index on 1 February 2026, from the Oceanic Nino Index to the Relative Oceanic Nino Index (NWS Public Information Statement 26-05), and switched the underlying reconstruction from ERSSTv5 to ERSSTv6 on 3 August 2026, so the same 2026 El Nino now carries four different published numbers between +0.98 and +2.9 depending on the file. Measured, on CPC's own two index files over 918 seasons: the ONI-minus-RONI gap trends +0.069 degrees C per decade (Mann-Kendall Z = 21.7), running from -0.173 in the 1950s to +0.441 in the 2020s, and it re-ranks the record so that the largest event since 1950 is 2015-16 on the legacy index and 1982-83 on the official one. Joined WMO's forecast to our own series with a DJF Nino 3.4 to annual GISTEMP regression (n = 70, r = 0.563, slope 0.057 degrees C per degree C) giving 2027 about 0.17 degrees C above its own eleven-year smooth, and stated why that is a floor. Narrated the melt season nobody is narrating: Arctic extent 6.031 million square kilometres on 9 August, 11th lowest of 43, melting 1.3 standard deviations slower than the 1991-2020 fortnight rate, with a falsifiable September monthly-mean projection of 4.76 (band 4.48 to 5.04) and a record low ruled out arithmetically. Recorded the Antarctic winter as fourth lowest for the date with the four lowest 9 Augusts being the last four years consecutively, and verified our own September sea ice series against NSIDC's daily file to within 0.005 million square kilometres over 39 years."
+}

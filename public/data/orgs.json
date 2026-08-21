@@ -1,0 +1,1698 @@
+{
+ "updated": "2026-08-09",
+ "orgs": [
+  {
+   "id": "ipcc",
+   "name": "IPCC",
+   "full": "Intergovernmental Panel on Climate Change",
+   "kind": "assessment",
+   "country": "international",
+   "founded": 1988,
+   "what": "The IPCC does not do research. It reads the research, all of it, and writes down what the published literature collectively supports, with hundreds of volunteer scientists doing the reading and every government on Earth signing off on the summary line by line. That last part is why its reports carry weight in negotiations and also why they tend to be conservative: a sentence survives only if nobody can show it is wrong. When you see a claim described as the scientific consensus, this is usually the body that certified it.",
+   "publishes": "A full assessment report roughly every seven years across three working groups, plus special reports and greenhouse gas inventory methodology guidelines in between.",
+   "latest": {
+    "title": "IPCC appoints 664 authors from 111 countries for the Seventh Assessment Report",
+    "date": "2025-08-18",
+    "url": "https://www.ipcc.ch/2025/08/18/pr-ar7-authors/"
+   },
+   "url": "https://www.ipcc.ch/",
+   "readFirst": {
+    "label": "AR6 Synthesis Report (2023), the last complete assessment",
+    "url": "https://www.ipcc.ch/report/ar6/syr/"
+   }
+  },
+  {
+   "id": "wmo",
+   "name": "WMO",
+   "full": "World Meteorological Organization",
+   "kind": "monitoring",
+   "country": "international",
+   "founded": 1950,
+   "what": "The UN agency that the world's national weather services belong to. Its practical job is standardisation: making sure a temperature measured in Chad and one measured in Chile mean the same thing. Once a year it takes the eight or nine independent global temperature datasets, reconciles them, and issues the single consolidated number that everyone else quotes. It also runs the Global Atmosphere Watch greenhouse gas network and co-sponsors the global climate observing system.",
+   "publishes": "State of the Global Climate every March, a Greenhouse Gas Bulletin every October, an annual to decadal forecast every May, plus regional state-of-climate reports and seasonal updates.",
+   "latest": {
+    "title": "State of the Global Climate 2025 (WMO-No. 1391)",
+    "date": "2026-03-23",
+    "url": "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025"
+   },
+   "url": "https://wmo.int/",
+   "readFirst": {
+    "label": "State of the Global Climate 2025, the annual reckoning",
+    "url": "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025"
+   }
+  },
+  {
+   "id": "unfccc",
+   "name": "UNFCCC",
+   "full": "United Nations Framework Convention on Climate Change",
+   "kind": "policy",
+   "country": "international",
+   "founded": 1992,
+   "what": "The treaty that every country has signed and the secretariat that runs its machinery. It is not a science body: it is the place where countries file their emission pledges, report their inventories, and argue once a year at the COP meetings. The Paris Agreement lives under it. If you want to know what governments have actually promised rather than what scientists think is needed, this is the registry.",
+   "publishes": "The NDC synthesis report before each COP, national inventory data, the Global Stocktake, and the formal COP decisions.",
+   "latest": {
+    "title": "2025 NDC Synthesis Report",
+    "date": "2025-10-28",
+    "url": "https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/2025-ndc-synthesis-report"
+   },
+   "url": "https://unfccc.int/",
+   "readFirst": {
+    "label": "2025 NDC Synthesis Report: what countries have actually pledged",
+    "url": "https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/2025-ndc-synthesis-report"
+   }
+  },
+  {
+   "id": "unep",
+   "name": "UNEP",
+   "full": "United Nations Environment Programme",
+   "kind": "policy",
+   "country": "international",
+   "founded": 1972,
+   "what": "The UN's environment arm, and the author of the one report that does the most uncomfortable arithmetic in climate policy: the Emissions Gap Report, which each year subtracts what countries have promised from what the science says is required and publishes the difference. It is deliberately blunt. The 2025 edition put the world on track for about 2.8 C under current policies.",
+   "publishes": "The Emissions Gap Report each autumn before the COP, plus an Adaptation Gap Report and a Production Gap Report on planned fossil fuel extraction.",
+   "latest": {
+    "title": "Emissions Gap Report 2025: Off Target",
+    "date": "2025-11-04",
+    "url": "https://www.unep.org/resources/emissions-gap-report-2025"
+   },
+   "url": "https://www.unep.org/",
+   "readFirst": {
+    "label": "Emissions Gap Report 2025",
+    "url": "https://www.unep.org/resources/emissions-gap-report-2025"
+   }
+  },
+  {
+   "id": "nasa-giss",
+   "name": "NASA GISS",
+   "full": "NASA Goddard Institute for Space Studies",
+   "kind": "data-centre",
+   "country": "United States",
+   "founded": 1961,
+   "what": "A small NASA lab above a diner in Manhattan that produces GISTEMP, one of the four or five global surface temperature records the world relies on. It pulls together readings from more than 25,000 weather stations plus ships, buoys and Antarctic bases, and corrects for the fact that stations move, cities grow warmer, and instruments change. It also builds the ModelE climate model. Its annual temperature announcement is released jointly with NOAA each January.",
+   "publishes": "GISTEMP monthly and annually, the annual global temperature analysis in January, and ModelE simulations for the CMIP model comparisons.",
+   "latest": {
+    "title": "NASA analysis: 2025 was effectively tied with 2023, at 1.19 C above the 1951-1980 average",
+    "date": "2026-01-14",
+    "url": "https://science.nasa.gov/earth/explore/earth-indicators/global-temperature/"
+   },
+   "url": "https://data.giss.nasa.gov/gistemp/",
+   "readFirst": {
+    "label": "NASA's global temperature indicator, updated monthly",
+    "url": "https://science.nasa.gov/earth/explore/earth-indicators/global-temperature/"
+   }
+  },
+  {
+   "id": "noaa-ncei",
+   "name": "NOAA NCEI",
+   "full": "NOAA National Centers for Environmental Information",
+   "kind": "data-centre",
+   "country": "United States",
+   "founded": 2015,
+   "what": "The world's largest archive of environmental data, and the home of the NOAAGlobalTemp record, the global ocean heat content series, and the paleoclimate archive where ice core and tree ring records are deposited. It publishes a global climate report every single month, which makes it the most regular pulse-check available. It also leads the international State of the Climate report that appears each summer in the Bulletin of the American Meteorological Society.",
+   "publishes": "Monthly global climate reports, an annual report each January, quarterly ocean heat content updates, and the annual BAMS State of the Climate supplement.",
+   "latest": {
+    "title": "Annual 2025 Global Climate Report: third warmest year, record ocean heat",
+    "date": "2026-01-14",
+    "url": "https://www.ncei.noaa.gov/news/global-climate-202513"
+   },
+   "url": "https://www.ncei.noaa.gov/",
+   "readFirst": {
+    "label": "Annual 2025 Global Climate Report",
+    "url": "https://www.ncei.noaa.gov/news/global-climate-202513"
+   }
+  },
+  {
+   "id": "noaa-gml",
+   "name": "NOAA GML",
+   "full": "NOAA Global Monitoring Laboratory",
+   "kind": "monitoring",
+   "country": "United States",
+   "founded": 1972,
+   "what": "This is where the air itself gets measured. GML runs the observatories at Mauna Loa, Barrow, American Samoa and the South Pole plus a worldwide flask-sampling network, and from them produces the definitive record of CO2, methane, nitrous oxide and the halocarbons. When anyone cites a CO2 number, it almost always traces back here. It also computes the Annual Greenhouse Gas Index, which converts all those gases into one figure for how much stronger the greenhouse effect has grown since 1990.",
+   "publishes": "Daily, weekly, monthly and annual greenhouse gas data as open text files, annual growth rates, and the Annual Greenhouse Gas Index.",
+   "latest": {
+    "title": "Trends in atmospheric CO2: July 2026 monthly mean 429.12 ppm at Mauna Loa",
+    "date": "2026-08-05",
+    "url": "https://gml.noaa.gov/ccgg/trends/"
+   },
+   "url": "https://gml.noaa.gov/",
+   "readFirst": {
+    "label": "Trends in atmospheric carbon dioxide, the Keeling Curve as data",
+    "url": "https://gml.noaa.gov/ccgg/trends/"
+   }
+  },
+  {
+   "id": "nsidc",
+   "name": "NSIDC",
+   "full": "National Snow and Ice Data Center",
+   "kind": "data-centre",
+   "country": "United States",
+   "founded": 1976,
+   "what": "Based at the University of Colorado Boulder, NSIDC turns passive microwave satellite data into the sea ice record that starts in 1979 and has been continuous ever since. Twice a year, at the Arctic September minimum and the Antarctic February minimum, it declares the number that gets reported everywhere. Its Sea Ice Today analyses explain what the weather actually did to produce that number, which is usually more interesting than the rank.",
+   "publishes": "Daily sea ice extent, a monthly Sea Ice Today analysis, and minimum and maximum announcements each season.",
+   "latest": {
+    "title": "Antarctic sea ice extent arrives at a near-average minimum: 2.58 million km2 on 26 February 2026",
+    "date": "2026-03-09",
+    "url": "https://nsidc.org/news-analyses/news-stories/antarctic-sea-ice-extent-arrives-near-average-minimum"
+   },
+   "url": "https://nsidc.org/",
+   "readFirst": {
+    "label": "Sea Ice Today analyses",
+    "url": "https://nsidc.org/sea-ice-today/analyses"
+   }
+  },
+  {
+   "id": "met-office-hadley",
+   "name": "Met Office Hadley Centre",
+   "full": "Met Office Hadley Centre for Climate Science and Services",
+   "kind": "research",
+   "country": "United Kingdom",
+   "founded": 1990,
+   "what": "The UK government's climate research centre, which with the University of East Anglia produces HadCRUT5, the longest of the major global temperature records at 176 years. It is unusually good at saying in advance what it expects: its December 2024 forecast for 2025 gave a central estimate of 1.41 C, and the observed value came in at exactly 1.41 C. It also acts as the WMO Lead Centre for annual to decadal prediction and runs the HadGEM climate models.",
+   "publishes": "HadCRUT5 monthly, HadSST and HadISST ocean datasets, an annual global temperature forecast each December, the WMO decadal update each May, and UK climate projections.",
+   "latest": {
+    "title": "2025 continues series of world's three warmest years: 1.41 C above 1850-1900",
+    "date": "2026-01-14",
+    "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/2025-continues-series-of-worlds-three-warmest-years"
+   },
+   "url": "https://www.metoffice.gov.uk/research/climate",
+   "readFirst": {
+    "label": "HadCRUT5 dataset and documentation",
+    "url": "https://www.metoffice.gov.uk/hadobs/hadcrut5/"
+   }
+  },
+  {
+   "id": "copernicus-c3s",
+   "name": "Copernicus C3S",
+   "full": "Copernicus Climate Change Service",
+   "kind": "data-centre",
+   "country": "European Union",
+   "founded": 2015,
+   "what": "The EU's climate information service, run by ECMWF on behalf of the European Commission. Its main product is ERA5, a reanalysis: a weather forecasting model rerun over the whole satellite era with every observation ever taken fed into it, producing a gap-free hourly picture of the global atmosphere back to 1940. Because it is a model plus observations rather than stations alone, it can report a month's global temperature within about a week, which is why Copernicus is usually first to announce.",
+   "publishes": "Monthly climate bulletins within about eight days of month end, the Global Climate Highlights each January, the European State of the Climate each spring, and free access to ERA5 through the Climate Data Store.",
+   "latest": {
+    "title": "2025 was the third hottest year on record: 1.47 C above pre-industrial in ERA5",
+    "date": "2026-01-14",
+    "url": "https://climate.copernicus.eu/copernicus-2025-was-third-hottest-year-record"
+   },
+   "url": "https://climate.copernicus.eu/",
+   "readFirst": {
+    "label": "Climate indicators: temperature, sea level, sea ice, greenhouse gases",
+    "url": "https://climate.copernicus.eu/climate-indicators"
+   }
+  },
+  {
+   "id": "ecmwf",
+   "name": "ECMWF",
+   "full": "European Centre for Medium-Range Weather Forecasts",
+   "kind": "research",
+   "country": "international",
+   "founded": 1975,
+   "what": "An intergovernmental organisation of 35 European states that runs what is generally regarded as the best medium-range weather forecast model in the world. That same modelling and data assimilation machinery is what makes ERA5 possible, so ECMWF is the engine underneath the Copernicus climate service. It operates two of the EU's Copernicus services, C3S for climate and CAMS for atmospheric composition.",
+   "publishes": "Operational forecasts, the ERA reanalysis series, and the Copernicus C3S and CAMS services.",
+   "latest": {
+    "title": "Global Climate Highlights 2025, produced by C3S at ECMWF",
+    "date": "2026-01-14",
+    "url": "https://climate.copernicus.eu/copernicus-2025-was-third-hottest-year-record"
+   },
+   "url": "https://www.ecmwf.int/",
+   "readFirst": {
+    "label": "ECMWF overview",
+    "url": "https://www.ecmwf.int/"
+   }
+  },
+  {
+   "id": "berkeley-earth",
+   "name": "Berkeley Earth",
+   "full": "Berkeley Earth",
+   "kind": "research",
+   "country": "United States",
+   "founded": 2010,
+   "what": "An independent non-profit founded by physicist Richard Muller, partly to test whether the existing temperature records were right. It rebuilt the analysis from scratch with different statistical methods and 57,685 stations, and got the same answer, which is the most useful thing a sceptical audit can do. It now publishes one of the standard global records and is unusually good at the human side of the numbers: how many people lived somewhere that had its hottest year ever, and which countries set records.",
+   "publishes": "Monthly temperature updates, an annual global temperature report each January with a forecast for the year ahead, and open gridded data.",
+   "latest": {
+    "title": "Global Temperature Report for 2025: third warmest at 1.44 C above 1850-1900",
+    "date": "2026-01-14",
+    "url": "https://berkeleyearth.org/global-temperature-report-for-2025/"
+   },
+   "url": "https://berkeleyearth.org/",
+   "readFirst": {
+    "label": "Global Temperature Report for 2025",
+    "url": "https://berkeleyearth.org/global-temperature-report-for-2025/"
+   }
+  },
+  {
+   "id": "scripps",
+   "name": "Scripps",
+   "full": "Scripps Institution of Oceanography, UC San Diego",
+   "kind": "research",
+   "country": "United States",
+   "founded": 1903,
+   "what": "Where Charles David Keeling started measuring atmospheric CO2 at Mauna Loa in 1958 and, against considerable funding scepticism, kept measuring. The resulting sawtooth line rising year on year is the Keeling Curve, arguably the single most consequential dataset in environmental science, and Scripps still maintains it in parallel with NOAA's own measurements at the same site. Two independent programmes measuring the same air is a deliberate cross-check, not duplication.",
+   "publishes": "The Keeling Curve daily and weekly, the Scripps CO2 flask network record, and ocean and atmospheric research across the institution.",
+   "latest": {
+    "title": "The Keeling Curve, updated daily",
+    "date": "2026-08-08",
+    "url": "https://keelingcurve.ucsd.edu/"
+   },
+   "url": "https://scripps.ucsd.edu/",
+   "readFirst": {
+    "label": "The Keeling Curve",
+    "url": "https://keelingcurve.ucsd.edu/"
+   }
+  },
+  {
+   "id": "global-carbon-project",
+   "name": "Global Carbon Project",
+   "full": "Global Carbon Project",
+   "kind": "research",
+   "country": "international",
+   "founded": 2001,
+   "what": "A voluntary international collaboration that each year counts, as carefully as anyone can, where all the carbon went: how much came out of fossil fuels and cement, how much from clearing land, how much the ocean took up, how much plants took up, and how much stayed in the air. The five numbers have to balance, and the size of the gap that does not balance is itself a published measure of how well we understand the carbon cycle. Coordinated from the University of Exeter with over 100 people from 70 organisations.",
+   "publishes": "The Global Carbon Budget every year, released at the COP in November and published in full in Earth System Science Data, plus periodic global methane and nitrous oxide budgets.",
+   "latest": {
+    "title": "Global Carbon Budget 2025: fossil CO2 a record 38.1 GtCO2",
+    "date": "2026-05-13",
+    "url": "https://essd.copernicus.org/articles/18/3211/2026/"
+   },
+   "url": "https://globalcarbonbudget.org/",
+   "readFirst": {
+    "label": "Fossil fuel CO2 emissions hit record high in 2025",
+    "url": "https://globalcarbonbudget.org/fossil-fuel-co2-emissions-hit-record-high-in-2025/"
+   }
+  },
+  {
+   "id": "world-weather-attribution",
+   "name": "World Weather Attribution",
+   "full": "World Weather Attribution",
+   "kind": "research",
+   "country": "international",
+   "founded": 2014,
+   "what": "A small international team, led from Imperial College London with KNMI and the Red Cross Red Crescent Climate Centre, that answers one question fast: did climate change make this particular flood, heatwave or fire weather more likely, and by how much? They run the analysis in days rather than the years a normal paper takes, using pre-agreed methods so speed does not mean sloppiness, and they publish the null results too. Over 100 studies since 2014.",
+   "publishes": "Rapid attribution studies within days or weeks of a major extreme event, plus an annual review each December of the year's extremes.",
+   "latest": {
+    "title": "Climate change increases likelihood of compounding drivers of severe wildfire conditions in France and Spain",
+    "date": "2026-07-30",
+    "url": "https://www.worldweatherattribution.org/event-papers/"
+   },
+   "url": "https://www.worldweatherattribution.org/",
+   "readFirst": {
+    "label": "All event attribution papers",
+    "url": "https://www.worldweatherattribution.org/event-papers/"
+   }
+  },
+  {
+   "id": "pik",
+   "name": "PIK Potsdam",
+   "full": "Potsdam Institute for Climate Impact Research",
+   "kind": "research",
+   "country": "Germany",
+   "founded": 1992,
+   "what": "A German institute best known for two ideas that have escaped into general use: planetary boundaries, the notion that Earth has a safe operating space across nine dimensions, and tipping elements, the parts of the climate system that can flip into a different state and not flip back. Its work on the Amazon, the Atlantic overturning circulation and the ice sheets sets much of the agenda for how abrupt change gets discussed.",
+   "publishes": "Peer-reviewed research, the annual Planetary Health Check, and contributions to the Global Tipping Points reports.",
+   "latest": {
+    "title": "Global warming must peak below 2 C to limit tipping point risks",
+    "date": "2026-02-19",
+    "url": "https://www.pik-potsdam.de/en/news/latest-news/global-warming-must-peak-below-2degc-to-limit-tipping-point-risks"
+   },
+   "url": "https://www.pik-potsdam.de/en/home",
+   "readFirst": {
+    "label": "Planetary Boundaries Science lab and the Planetary Health Check",
+    "url": "https://www.pik-potsdam.de/en/institute/labs/pbscience/pbscience"
+   }
+  },
+  {
+   "id": "royal-society",
+   "name": "The Royal Society",
+   "full": "The Royal Society",
+   "kind": "assessment",
+   "country": "United Kingdom",
+   "founded": 1660,
+   "what": "Britain's national academy of sciences, and one of the bodies whose job is to say plainly what the scientific community actually thinks when a question becomes politically contested. On climate it produces short, readable briefings rather than thousand-page assessments, including a joint climate change evidence document with the US National Academy of Sciences, and detailed reports on specific technologies such as greenhouse gas removal and large-scale electricity storage.",
+   "publishes": "Policy briefings, evidence summaries for non-specialists, and technical reports on climate and energy technologies.",
+   "latest": {
+    "title": "Royal Society climate change briefings",
+    "date": "2026-08-08",
+    "url": "https://royalsociety.org/news-resources/projects/royal-society-climate-change-briefings/"
+   },
+   "url": "https://royalsociety.org/topics-policy/energy-environment-climate/",
+   "readFirst": {
+    "label": "Climate change: evidence and causes, the plain-English briefings",
+    "url": "https://royalsociety.org/news-resources/projects/royal-society-climate-change-briefings/"
+   }
+  },
+  {
+   "id": "us-national-academies",
+   "name": "US National Academies",
+   "full": "National Academies of Sciences, Engineering, and Medicine",
+   "kind": "assessment",
+   "country": "United States",
+   "founded": 1863,
+   "what": "Chartered by Abraham Lincoln to give the US government independent scientific advice, and structurally hard to lean on, which is the whole point of it. In September 2025 it published a fast-track review of whether greenhouse gases endanger public health and welfare, concluding that the evidence is beyond scientific dispute and that the 2009 finding it examined has only been strengthened since. The review was funded by the Academies themselves rather than commissioned by any agency.",
+   "publishes": "Consensus study reports on questions referred by government or taken up independently, each peer reviewed by a separate panel.",
+   "latest": {
+    "title": "Review of the evidence on greenhouse gas emissions and US climate, health and welfare",
+    "date": "2025-09-17",
+    "url": "https://www.nationalacademies.org/news/national-academies-publish-new-report-reviewing-evidence-for-greenhouse-gas-emissions-and-u-s-climate-health-and-welfare"
+   },
+   "url": "https://www.nationalacademies.org/",
+   "readFirst": {
+    "label": "The 2025 greenhouse gas endangerment evidence review",
+    "url": "https://www.nationalacademies.org/news/national-academies-publish-new-report-reviewing-evidence-for-greenhouse-gas-emissions-and-u-s-climate-health-and-welfare"
+   }
+  },
+  {
+   "id": "eea",
+   "name": "EEA",
+   "full": "European Environment Agency",
+   "kind": "policy",
+   "country": "European Union",
+   "founded": 1993,
+   "what": "The EU's environmental information agency, which in 2024 published the first European Climate Risk Assessment: a structured evaluation of 36 major climate risks to Europe, scored for severity, how much time is left to act, and how ready policy is. Several were judged already critical. It is the clearest example anywhere of a government body turning climate science into a prioritised risk register rather than a description.",
+   "publishes": "The European Climate Risk Assessment, climate change indicators for Europe, and the Climate-ADAPT adaptation knowledge platform.",
+   "latest": {
+    "title": "European Climate Risk Assessment (EEA Report 01/2024)",
+    "date": "2024-03-11",
+    "url": "https://www.eea.europa.eu/en/analysis/publications/european-climate-risk-assessment/"
+   },
+   "url": "https://www.eea.europa.eu/",
+   "readFirst": {
+    "label": "European Climate Risk Assessment",
+    "url": "https://www.eea.europa.eu/en/analysis/publications/european-climate-risk-assessment/"
+   }
+  },
+  {
+   "id": "csiro",
+   "name": "CSIRO",
+   "full": "Commonwealth Scientific and Industrial Research Organisation",
+   "kind": "research",
+   "country": "Australia",
+   "founded": 1949,
+   "what": "Australia's national science agency, which with the Bureau of Meteorology publishes State of the Climate every two years: the authoritative account of how the Australian continent and the oceans around it are changing. It also runs Cape Grim in Tasmania, one of the three baseline air-sampling stations that define what clean Southern Hemisphere air looks like, and holds the world's longest archive of stored air samples.",
+   "publishes": "State of the Climate every two years with the Bureau of Meteorology, the Cape Grim greenhouse gas record, and Australian climate projections.",
+   "latest": {
+    "title": "State of the Climate 2024, the eighth in the series",
+    "date": "2024-10-31",
+    "url": "https://www.csiro.au/en/research/environmental-impacts/climate-change/state-of-the-climate"
+   },
+   "url": "https://www.csiro.au/en/research/environmental-impacts/climate-change/state-of-the-climate",
+   "readFirst": {
+    "label": "State of the Climate, report at a glance",
+    "url": "https://www.csiro.au/en/research/environmental-impacts/climate-change/state-of-the-climate/report-at-a-glance"
+   }
+  },
+  {
+   "id": "jma",
+   "name": "JMA",
+   "full": "Japan Meteorological Agency",
+   "kind": "monitoring",
+   "country": "Japan",
+   "founded": 1875,
+   "what": "Japan's national weather service, and one of the handful of institutions worldwide that maintains its own independent global surface temperature analysis, going back to 1891. Having a fifth or sixth record built by a different team with different choices is what lets WMO say the datasets agree. JMA also produces the JRA reanalysis series and runs the Tokyo Climate Center, which provides climate services across Asia and the Pacific.",
+   "publishes": "Monthly and annual global temperature analyses, the annual Climate Change Monitoring Report, and the JRA-3Q reanalysis.",
+   "latest": {
+    "title": "Global average surface temperature 2025: third warmest since 1891, 0.48 C above the 1991-2020 average (page carries no update date; value confirmed on 8 August 2026)",
+    "date": "2026-08-08",
+    "url": "https://ds.data.jma.go.jp/tcc/tcc/products/gwp/temp/ann_wld.html"
+   },
+   "url": "https://www.jma.go.jp/jma/indexe.html",
+   "readFirst": {
+    "label": "JMA global warming products and temperature anomalies",
+    "url": "https://ds.data.jma.go.jp/tcc/tcc/products/gwp/gwp.html"
+   }
+  },
+  {
+   "id": "esa-climate-office",
+   "name": "ESA Climate Office",
+   "full": "European Space Agency Climate Office",
+   "kind": "monitoring",
+   "country": "European Union",
+   "founded": 2010,
+   "what": "Europe's satellites have been watching Earth for over forty years, but a raw satellite image is not a climate record: you have to stitch across instruments, correct for orbital drift, and validate against ground measurements before a trend means anything. That reprocessing is what the ESA Climate Change Initiative does, for 27 of the 38 climate variables that can be seen from space, with over 500 scientists involved and every product carrying documented uncertainty.",
+   "publishes": "Satellite-derived climate data records for essential climate variables, free through the CCI open data portal, with periodic reprocessed versions.",
+   "latest": {
+    "title": "CCI essential climate variable portfolio",
+    "date": "2026-08-08",
+    "url": "https://climate.esa.int/en/about-us-new/climate-change-initiative/essential-climate-variables/"
+   },
+   "url": "https://climate.esa.int/en/",
+   "readFirst": {
+    "label": "The CCI essential climate variable portfolio",
+    "url": "https://climate.esa.int/en/about-us-new/climate-change-initiative/essential-climate-variables/"
+   }
+  },
+  {
+   "id": "wcrp",
+   "name": "WCRP",
+   "full": "World Climate Research Programme",
+   "kind": "research",
+   "country": "international",
+   "founded": 1980,
+   "what": "The body that coordinates climate research internationally, sponsored by WMO, the International Science Council and the Intergovernmental Oceanographic Commission. Its most visible output is CMIP, the exercise that gets every modelling group on Earth to run the same experiments so their results can be compared. Without that coordination the IPCC would have no consistent set of projections to assess, so WCRP is the quiet infrastructure underneath the headline reports.",
+   "publishes": "The CMIP protocols and coordination, core projects on the ocean, cryosphere and atmosphere, and periodic assessments such as the climate sensitivity reassessment.",
+   "latest": {
+    "title": "An evolving CMIP7 and Fast Track in support of future climate assessment",
+    "date": "2025-10-14",
+    "url": "https://gmd.copernicus.org/articles/18/6671/2025/"
+   },
+   "url": "https://www.wcrp-climate.org/",
+   "readFirst": {
+    "label": "CMIP, the coupled model intercomparison project",
+    "url": "https://wcrp-cmip.org/"
+   }
+  },
+  {
+   "id": "wgms",
+   "name": "WGMS",
+   "full": "World Glacier Monitoring Service",
+   "kind": "monitoring",
+   "country": "Switzerland",
+   "founded": 1986,
+   "what": "Hosted at the University of Zurich, WGMS collects glacier measurements from around the world, some of them from reference glaciers that have been surveyed on foot every year since the 1940s. In 2025 it coordinated GlaMBIE, the first exercise to reconcile every satellite and field method into one global answer, which came out at 273 gigatonnes of ice lost per year. Eight of the ten worst years for glacier mass balance since 1950 have happened since 2016.",
+   "publishes": "The Global Glacier Change Bulletin, annual mass balance data for reference glaciers, and the GlaMBIE reconciled dataset.",
+   "latest": {
+    "title": "Community estimate of global glacier mass changes from 2000 to 2023 (GlaMBIE), Nature",
+    "date": "2025-02-19",
+    "url": "https://www.nature.com/articles/s41586-024-08545-z"
+   },
+   "url": "https://wgms.ch/",
+   "readFirst": {
+    "label": "The GlaMBIE paper and data",
+    "url": "https://wgms.ch/glambie_paper/"
+   }
+  },
+  {
+   "id": "gcos",
+   "name": "GCOS",
+   "full": "Global Climate Observing System",
+   "kind": "monitoring",
+   "country": "international",
+   "founded": 1992,
+   "what": "Not an observing network itself but the body that decides what the world needs to observe and then names the gaps. It defines the Essential Climate Variables, currently 55 of them across land, ocean and atmosphere, which are the minimum set you must measure to know what the climate is doing. Every space agency and data centre designs against that list. GCOS is co-sponsored by WMO, the IOC, UNEP and the International Science Council.",
+   "publishes": "The Essential Climate Variable requirements, periodic status reports on the observing system, and implementation plans.",
+   "latest": {
+    "title": "ECV rationalization review, with a revised variable set targeted for 2028 and the next status report and implementation plan due in 2027",
+    "date": "2026-08-08",
+    "url": "https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/ecv-rationalization"
+   },
+   "url": "https://gcos.wmo.int/",
+   "readFirst": {
+    "label": "About the Essential Climate Variables",
+    "url": "https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables"
+   }
+  },
+  {
+   "id": "british-antarctic-survey",
+   "name": "British Antarctic Survey",
+   "full": "British Antarctic Survey",
+   "kind": "research",
+   "country": "United Kingdom",
+   "founded": 1962,
+   "what": "The UK's polar research institute, with a long record of finding things nobody expected, most famously the Antarctic ozone hole in 1985. It operates Antarctic stations, ships and aircraft, and its ice core laboratory in Cambridge is doing much of the analysis on the Beyond EPICA core, melting 190 metres of the oldest ice ever drilled to read the atmosphere of 1.2 million years ago.",
+   "publishes": "Polar research across glaciology, atmospheric science and biology, ice core analyses, and Antarctic operational support.",
+   "latest": {
+    "title": "Historic drilling project finds ice over 1.2 million years old",
+    "date": "2025-01-09",
+    "url": "https://www.bas.ac.uk/news/historic-drilling-campaign-reaches-ice-more-than-1-2-million-years-old/"
+   },
+   "url": "https://www.bas.ac.uk/",
+   "readFirst": {
+    "label": "Reaching ice more than 1.2 million years old",
+    "url": "https://www.bas.ac.uk/news/historic-drilling-campaign-reaches-ice-more-than-1-2-million-years-old/"
+   }
+  },
+  {
+   "id": "bloombergphilanthropies",
+   "name": "Bloomberg Philanthropies",
+   "full": "Bloomberg Philanthropies",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 2006,
+   "what": "The umbrella for all of Michael Bloomberg's giving, personal and corporate. Its Environment programme is one of the largest private funders of climate work anywhere, running five workstreams: clean energy, air quality, ocean protection, sustainable cities and sustainable finance. It is a funder rather than a producer, so most of what it does shows up under someone else's name, which is exactly why it is worth listing separately. It has twice covered the United States' unpaid contribution to the UN climate secretariat after a federal withdrawal, in 2017 and again from 2025.",
+   "publishes": "An annual report each year covering all programmes, plus programme pages and press releases. No searchable grants database.",
+   "latest": {
+    "title": "Environment programme pages, current structure and COP30 forums",
+    "date": "2026-08-09",
+    "url": "https://www.bloomberg.org/environment/"
+   },
+   "url": "https://www.bloomberg.org/",
+   "readFirst": {
+    "label": "Environment: the five climate workstreams and what each funds",
+    "url": "https://www.bloomberg.org/environment/"
+   },
+   "founders": [
+    "Michael Bloomberg"
+   ]
+  },
+  {
+   "id": "bloombergnef",
+   "name": "BloombergNEF",
+   "full": "BloombergNEF (BNEF)",
+   "kind": "research",
+   "country": "USA",
+   "founded": 2004,
+   "what": "The energy transition research arm of Bloomberg's financial data business, and one of the most quoted non-governmental sources of clean energy numbers. Its annual New Energy Outlook is a full scenario set for power, industry, buildings and transport out to 2050. It is a commercial research house, not an assessment body, so its scenarios are one firm's view rather than a consensus, and should be read that way. The full report is behind a subscription but the executive summary and a public benchmark dataset are free.",
+   "publishes": "The New Energy Outlook annually in May, plus levelised cost surveys, battery price surveys, energy transition investment trends and sector notes through the year.",
+   "latest": {
+    "title": "New Energy Outlook 2026: solar the largest electricity source by 2032, storage up 17-fold to 3.8 TW by 2035",
+    "date": "2026-05-19",
+    "url": "https://about.bnef.com/insights/clean-energy/new-energy-outlook/"
+   },
+   "url": "https://about.bnef.com/",
+   "readFirst": {
+    "label": "New Energy Outlook 2026, free executive summary and public benchmark dataset",
+    "url": "https://about.bnef.com/insights/clean-energy/new-energy-outlook/"
+   },
+   "founders": [
+    "Michael Liebreich"
+   ]
+  },
+  {
+   "id": "c40",
+   "name": "C40 Cities",
+   "full": "C40 Cities Climate Leadership Group",
+   "kind": "coalition",
+   "country": "international",
+   "founded": 2005,
+   "what": "A network of the mayors of 96 of the world's largest cities, covering about 920 million people and roughly a quarter of the global economy. Cities are where most emissions are concentrated and where a mayor can actually change a bus fleet or a building code, so this is the layer of climate governance that moves fastest. Three-quarters of C40 cities are cutting emissions faster than their national governments. Michael Bloomberg chaired it as Mayor of New York from 2010 to 2013 and is now President of its Board.",
+   "publishes": "An annual report, city climate action plans, sector research and accelerator programmes, plus the mayoral declarations that come out of its summits.",
+   "latest": {
+    "title": "Twenty years of C40: per capita emissions across member cities down 7.5 percent from 2015 to 2024, against 1.5 percent globally",
+    "date": "2025-06-24",
+    "url": "https://www.c40.org/news/c40-marks-20-years-of-climate-action/"
+   },
+   "url": "https://www.c40.org/",
+   "readFirst": {
+    "label": "About C40: membership, structure and the measured results",
+    "url": "https://www.c40.org/about-c40/"
+   },
+   "founders": [
+    "Ken Livingstone"
+   ]
+  },
+  {
+   "id": "globalcovenantofmayors",
+   "name": "Global Covenant of Mayors",
+   "full": "Global Covenant of Mayors for Climate and Energy",
+   "kind": "coalition",
+   "country": "international",
+   "founded": 2016,
+   "what": "The mass version of the city climate network: over 14,000 cities and local governments in 148 countries, representing more than 1.2 billion people. Where C40 is a small club of megacities, this is the reporting framework that a town of forty thousand can join. It was formed in 2016 by merging the European Union's Covenant of Mayors with the Compact of Mayors, and is co-chaired by Michael Bloomberg and the European Commission's Teresa Ribera.",
+   "publishes": "An annual Aggregation Report totalling what member cities have committed to and achieved, plus a strategic roadmap running to 2028.",
+   "latest": {
+    "title": "2025 Aggregation Report; member targets project roughly 4.2 Gt CO2 a year avoided by 2050 against business as usual",
+    "date": "2025-12-31",
+    "url": "https://www.globalcovenantofmayors.org/who-we-are/"
+   },
+   "url": "https://www.globalcovenantofmayors.org/",
+   "readFirst": {
+    "label": "Who we are: the merger, the membership and the co-chairs",
+    "url": "https://www.globalcovenantofmayors.org/who-we-are/"
+   },
+   "founders": [
+    "Michael Bloomberg"
+   ]
+  },
+  {
+   "id": "iclei",
+   "name": "ICLEI",
+   "full": "ICLEI - Local Governments for Sustainability",
+   "kind": "coalition",
+   "country": "international",
+   "founded": 1990,
+   "what": "The oldest of the local-government climate networks, founded in 1990 as the International Council for Local Environmental Initiatives, decades before city climate action was fashionable. Its quiet importance is infrastructure: it built much of the greenhouse gas accounting and reporting machinery that the newer city alliances run on, and it co-operates the unified reporting track that lets a city report once and satisfy several frameworks.",
+   "publishes": "Local government GHG accounting protocols, the reporting track run jointly with CDP, and case-study and policy material for member governments.",
+   "latest": {
+    "title": "ICLEI network and programme pages",
+    "date": "2026-08-09",
+    "url": "https://iclei.org/"
+   },
+   "url": "https://iclei.org/",
+   "readFirst": {
+    "label": "ICLEI: who belongs and what the network does",
+    "url": "https://iclei.org/"
+   }
+  },
+  {
+   "id": "under2coalition",
+   "name": "Under2 Coalition",
+   "full": "Under2 Coalition (formerly the Under2 MOU)",
+   "kind": "coalition",
+   "country": "international",
+   "founded": 2015,
+   "what": "The states-and-regions tier of climate governance, the level between a city and a country that nothing else covers. It started as a memorandum signed by twelve jurisdictions in Sacramento in May 2015, California and Baden-Wuerttemberg among them, and now spans 183 states, regions and provinces across 36 countries, more than half of global GDP and about two billion people. Its members' policies carry an estimated annual reduction potential of around two billion tonnes of CO2 equivalent. It is convened by Climate Group, not by ICLEI, which the two are often confused over.",
+   "publishes": "An annual state of the coalition report, subnational transition plan guidance and member policy trackers.",
+   "latest": {
+    "title": "Keeping the Paris Agreement alive: a decade of subnational action and global impact",
+    "date": "2025-05-19",
+    "url": "https://www.theclimategroup.org/under2-coalition-decade-local-action-and-global-impact"
+   },
+   "url": "https://www.theclimategroup.org/under2-coalition",
+   "readFirst": {
+    "label": "The Under2 Coalition: membership, governance and the 2 Gt figure",
+    "url": "https://www.theclimategroup.org/under2-coalition"
+   },
+   "founders": [
+    "Jerry Brown",
+    "Franz Untersteller"
+   ]
+  },
+  {
+   "id": "climategroup",
+   "name": "Climate Group",
+   "full": "Climate Group",
+   "kind": "advocacy",
+   "country": "UK",
+   "founded": 2004,
+   "what": "An international non-profit that runs commitment campaigns for businesses and subnational governments, including RE100 on renewable electricity, EV100 on electric fleets and EP100 on energy productivity, and convenes the Under2 Coalition of states and regions. It also runs Climate Week NYC. Its model is to get a large enough block of buyers committed that a market shifts, which makes its membership lists a usable indicator in their own right.",
+   "publishes": "Annual RE100, EV100 and EP100 progress reports, Under2 Coalition material, and Climate Week NYC programming.",
+   "latest": {
+    "title": "What is shaping climate discourse for governments and policymakers in 2026",
+    "date": "2026-01-15",
+    "url": "https://www.theclimategroup.org/our-work/news/whats-shaping-climate-discourse-governments-and-policymakers-2026"
+   },
+   "url": "https://www.theclimategroup.org/",
+   "readFirst": {
+    "label": "Climate Group: the campaigns and the coalitions it convenes",
+    "url": "https://www.theclimategroup.org/"
+   }
+  },
+  {
+   "id": "gfanz",
+   "name": "GFANZ",
+   "full": "Glasgow Financial Alliance for Net Zero",
+   "kind": "finance",
+   "country": "international",
+   "founded": 2021,
+   "what": "Launched in April 2021 by Mark Carney and the COP26 presidency as an umbrella over the financial sector's net-zero alliances, with Michael Bloomberg joining as co-chair that November. It restructured on 2 January 2025 after a year of departures by major banks and asset managers, and in doing so dropped the requirement that members commit to net zero by 2050. It now describes itself as an independent private-sector initiative for mobilising transition capital, governed by a Principals Group rather than co-chairs. Its transition plan framework outlived the commitment structure: GFANZ counts over 500 institutions with more than 100 trillion dollars of balance sheet using it.",
+   "publishes": "Transition plan guidance, portfolio alignment measurement guidance, sector and country platform analysis, and reports on blended finance and adaptation investment.",
+   "latest": {
+    "title": "New analysis with British International Investment and BCG on scaling blended finance funds in emerging markets",
+    "date": "2026-06-22",
+    "url": "https://www.gfanzero.com/press/"
+   },
+   "url": "https://www.gfanzero.com/",
+   "readFirst": {
+    "label": "2025: New Year Update, the statement that set out the restructuring",
+    "url": "https://www.gfanzero.com/press/2025-new-year-update-from-gfanz-secretariat/"
+   },
+   "founders": [
+    "Mark Carney",
+    "Michael Bloomberg"
+   ]
+  },
+  {
+   "id": "nzaoa",
+   "name": "NZAOA",
+   "full": "UN-convened Net-Zero Asset Owner Alliance",
+   "kind": "finance",
+   "country": "international",
+   "founded": 2019,
+   "what": "The net-zero finance alliance that did not break. Asset owners, mainly pension funds and insurers, committing to bring their investment portfolios to net zero by 2050 consistent with 1.5 C. It was the first finance group to set intermediate targets rather than a distant date, with stated portfolio CO2 reduction ranges of 22 to 32 percent by 2025 and 40 to 60 percent by 2030. Unlike the banking and asset manager alliances it kept its membership and its commitment structure through 2024 and 2025.",
+   "publishes": "A Target-Setting Protocol, now in its fifth edition, plus annual progress reports and position papers on carbon pricing, deforestation and carbon removal.",
+   "latest": {
+    "title": "Target-Setting Protocol, fifth edition",
+    "date": "2026-03-01",
+    "url": "https://www.unepfi.org/net-zero-alliance/"
+   },
+   "url": "https://www.unepfi.org/net-zero-alliance/",
+   "readFirst": {
+    "label": "NZAOA: the commitment, the intermediate targets and the measured reductions",
+    "url": "https://www.unepfi.org/net-zero-alliance/"
+   }
+  },
+  {
+   "id": "nzam",
+   "name": "NZAM",
+   "full": "Net Zero Asset Managers initiative",
+   "kind": "finance",
+   "country": "international",
+   "founded": 2020,
+   "what": "A platform on which asset managers publish their own net-zero targets and report annually against them. It suspended activity in January 2025 after BlackRock's departure and a six-month strategic review, then relaunched on 25 February 2026 with more than 250 signatories and a rewritten commitment statement that cut the required actions from ten to seven and added explicit language on dependencies and jurisdictional differences. Anything written about NZAM between early 2025 and early 2026 describes a suspended body and is now out of date.",
+   "publishes": "Signatory target disclosures and periodic reports on how much of each signatory's assets are managed in line with net zero.",
+   "latest": {
+    "title": "NZAM relaunches with more than 250 asset managers on an updated commitment statement",
+    "date": "2026-02-25",
+    "url": "https://www.netzeroassetmanagers.org/net-zero-asset-managers-initiative-relaunches-with-global-investor-backing-and-updated-commitment/"
+   },
+   "url": "https://www.netzeroassetmanagers.org/",
+   "readFirst": {
+    "label": "The relaunch announcement and the updated commitment statement",
+    "url": "https://www.netzeroassetmanagers.org/net-zero-asset-managers-initiative-relaunches-with-global-investor-backing-and-updated-commitment/"
+   }
+  },
+  {
+   "id": "unepfi",
+   "name": "UNEP FI",
+   "full": "United Nations Environment Programme Finance Initiative",
+   "kind": "finance",
+   "country": "international",
+   "founded": 1992,
+   "what": "The UN Environment Programme's partnership with the financial sector, and the convenor behind most of the net-zero alliances people argue about. It hosts the Principles for Responsible Banking and the Principles for Sustainable Insurance, convened the Net-Zero Banking Alliance and the Net-Zero Insurance Alliance, and still convenes the Net-Zero Asset Owner Alliance. When an alliance collapses, UNEP FI is usually where its guidance ends up living.",
+   "publishes": "Target-setting protocols, risk and impact analysis tools, sector guidance and the Climate Pathways Navigator, plus the surviving guidance from wound-up alliances.",
+   "latest": {
+    "title": "Net-Zero Banking Resources, the archive that succeeded the Net-Zero Banking Alliance",
+    "date": "2025-10-03",
+    "url": "https://www.unepfi.org/net-zero-banking/"
+   },
+   "url": "https://www.unepfi.org/",
+   "readFirst": {
+    "label": "Net-Zero Banking Resources: guidance that outlived the alliance that wrote it",
+    "url": "https://www.unepfi.org/net-zero-banking/"
+   }
+  },
+  {
+   "id": "fsb",
+   "name": "FSB",
+   "full": "Financial Stability Board",
+   "kind": "policy",
+   "country": "international",
+   "founded": 2009,
+   "what": "The international body that monitors and makes recommendations about the global financial system, based in Basel and reporting to the G20. Its climate relevance is that it created the Task Force on Climate-related Financial Disclosures in 2015 at the request of G20 finance ministers, chaired by Michael Bloomberg, and then in 2023 declared the task force's work complete and handed monitoring to the IFRS Foundation. It still tracks how far jurisdictions have adopted climate disclosure rules.",
+   "publishes": "Annual progress reports on climate-related disclosures, plus its wider financial stability work.",
+   "latest": {
+    "title": "FSB reports on progress towards globally consistent and comparable climate-related disclosures",
+    "date": "2024-11-01",
+    "url": "https://www.fsb.org/2024/11/fsb-reports-on-progress-towards-globally-consistent-and-comparable-climate-related-disclosures/"
+   },
+   "url": "https://www.fsb.org/",
+   "readFirst": {
+    "label": "The FSB progress report on climate disclosure adoption",
+    "url": "https://www.fsb.org/2024/11/fsb-reports-on-progress-towards-globally-consistent-and-comparable-climate-related-disclosures/"
+   }
+  },
+  {
+   "id": "ifrsfoundation",
+   "name": "IFRS Foundation",
+   "full": "IFRS Foundation",
+   "kind": "policy",
+   "country": "international",
+   "founded": 2001,
+   "what": "The not-for-profit that sets the accounting standards used in more than 140 jurisdictions, and since 2021 the sustainability disclosure standards too, through its International Sustainability Standards Board. In 2024 it took over from the disbanded TCFD the job of monitoring how far companies actually disclose their climate risk. If you want to know whether corporate climate reporting is improving, this is now the body that counts it.",
+   "publishes": "IFRS Accounting Standards, IFRS Sustainability Disclosure Standards including IFRS S1 and S2, and an annual Progress on Corporate Climate-related Disclosures report from 2024.",
+   "latest": {
+    "title": "Progress on Corporate Climate-related Disclosures, 2024 Report",
+    "date": "2024-11-01",
+    "url": "https://www.ifrs.org/content/dam/ifrs/supporting-implementation/issb-standards/progress-climate-related-disclosures-2024.pdf"
+   },
+   "url": "https://www.ifrs.org/",
+   "readFirst": {
+    "label": "ISSB and TCFD: what happened to the task force and what carries its work",
+    "url": "https://www.ifrs.org/sustainability/tcfd/"
+   }
+  },
+  {
+   "id": "issb",
+   "name": "ISSB",
+   "full": "International Sustainability Standards Board",
+   "kind": "policy",
+   "country": "international",
+   "founded": 2021,
+   "what": "Announced at COP26 and housed inside the IFRS Foundation, the ISSB writes the global baseline standards for what a company must disclose about sustainability and climate. Its first two standards, IFRS S1 and IFRS S2, were issued in June 2023 and took effect in 2024. IFRS S2 fully incorporates the old TCFD recommendations, which is why the task force was able to declare its job finished. More than 30 jurisdictions covering over half of global GDP have announced steps to implement or align with the standards.",
+   "publishes": "IFRS S1 and IFRS S2, plus implementation guidance, jurisdictional adoption tracking and comparison documents against earlier frameworks.",
+   "latest": {
+    "title": "IFRS S1 and IFRS S2 in force, with adoption announced across 30-plus jurisdictions",
+    "date": "2026-08-09",
+    "url": "https://www.ifrs.org/sustainability/tcfd/"
+   },
+   "url": "https://www.ifrs.org/groups/international-sustainability-standards-board/",
+   "readFirst": {
+    "label": "How IFRS S2 absorbed the TCFD recommendations",
+    "url": "https://www.ifrs.org/sustainability/tcfd/"
+   }
+  },
+  {
+   "id": "cdp",
+   "name": "CDP",
+   "full": "CDP (formerly the Carbon Disclosure Project)",
+   "kind": "monitoring",
+   "country": "UK",
+   "founded": 2000,
+   "what": "The world's largest voluntary environmental disclosure system. Companies, cities, states and regions fill in one annual questionnaire covering climate, water, forests, biodiversity, plastics and, new for 2026, ocean, and CDP scores them from D to A. Disclosure is voluntary but expected: 91 percent of the FTSE 100 and 82 percent of the S&P 500 report through it. Over 23,100 organisations disclosed in the 2025 cycle. CDP has announced it will split into a non-profit CDP Foundation and a commercial entity.",
+   "publishes": "An annual disclosure dataset and scores, the corporate A-List, city and region reporting through a joint track with ICLEI, and sector analyses.",
+   "latest": {
+    "title": "2026 disclosure cycle open, with more than 43,000 organisations requested to disclose; window closes 26 October 2026",
+    "date": "2026-06-15",
+    "url": "https://www.cdp.net/en/disclosure-2026"
+   },
+   "url": "https://www.cdp.net/en",
+   "readFirst": {
+    "label": "CDP Disclosure 2026: who is asked, what is asked and the timetable",
+    "url": "https://www.cdp.net/en/disclosure-2026"
+   }
+  },
+  {
+   "id": "sbti",
+   "name": "SBTi",
+   "full": "Science Based Targets initiative",
+   "kind": "monitoring",
+   "country": "UK",
+   "founded": 2015,
+   "what": "The body that checks whether a company's emissions target actually corresponds to a temperature pathway, rather than to a press release. It is a partnership of CDP, the UN Global Compact, the World Resources Institute and WWF, and over 11,000 companies have had targets validated through it. Most of the corporate net-zero claims that carry any weight are anchored here, and the UN's Race to Zero campaign requires an SBTi-approved target from oil and gas participants.",
+   "publishes": "The Corporate Net-Zero Standard, sector-specific pathways, target validation decisions and a public target dashboard.",
+   "latest": {
+    "title": "Corporate Net-Zero Standard Version 2.0, the largest revision since 2021, mandatory for all submissions from 31 January 2028",
+    "date": "2026-06-11",
+    "url": "https://sciencebasedtargets.org/corporate-net-zero-standard-v2"
+   },
+   "url": "https://sciencebasedtargets.org/",
+   "readFirst": {
+    "label": "Corporate Net-Zero Standard Version 2.0: what changed and the transition timetable",
+    "url": "https://sciencebasedtargets.org/corporate-net-zero-standard-v2"
+   }
+  },
+  {
+   "id": "climatedatasteeringcommittee",
+   "name": "CDSC",
+   "full": "Climate Data Steering Committee",
+   "kind": "policy",
+   "country": "international",
+   "founded": 2022,
+   "what": "Set up in June 2022 by French President Emmanuel Macron and Michael Bloomberg to fix a specific problem: company climate data existed but was scattered, inconsistent and largely paywalled. Chaired by former SEC chair Mary Schapiro, it brings together regulators, standard setters and international organisations. In November 2022 it recommended building a single open repository, which became the Climate Data Utility.",
+   "publishes": "Recommendations and white papers on climate data standardisation, and oversight advice for the Climate Data Utility.",
+   "latest": {
+    "title": "Climate Data Utility, formerly the Net-Zero Data Public Utility, live and free",
+    "date": "2026-08-09",
+    "url": "https://www.climatedatasc.org/"
+   },
+   "url": "https://www.climatedatasc.org/",
+   "readFirst": {
+    "label": "The CDSC and the data problem it was set up to solve",
+    "url": "https://www.climatedatasc.org/"
+   },
+   "founders": [
+    "Emmanuel Macron",
+    "Michael Bloomberg"
+   ]
+  },
+  {
+   "id": "unhighlevelchampions",
+   "name": "UN High-Level Champions",
+   "full": "UN Climate Change High-Level Champions",
+   "kind": "policy",
+   "country": "international",
+   "founded": 2016,
+   "what": "Two people appointed by successive COP presidencies whose job is everyone who is not a government: business, cities, regions, investors and civil society. They run the Race to Zero and Race to Resilience campaigns and the Global Climate Action Agenda under the Marrakech Partnership agreed at COP22. The COP29 decision extended the arrangement, with champions to be appointed through 2026 to 2030.",
+   "publishes": "The Global Climate Action Agenda, Race to Zero criteria and progress reports, and the annual Yearbook of Global Climate Action.",
+   "latest": {
+    "title": "A new five-year Global Climate Action Agenda plan, developed for the COP30 presidency",
+    "date": "2025-11-22",
+    "url": "https://climatechampions.unfccc.int/"
+   },
+   "url": "https://climatechampions.unfccc.int/",
+   "readFirst": {
+    "label": "The Climate Champions and the campaigns they run",
+    "url": "https://climatechampions.unfccc.int/"
+   }
+  },
+  {
+   "id": "americaisallin",
+   "name": "America Is All In",
+   "full": "America Is All In",
+   "kind": "coalition",
+   "country": "USA",
+   "founded": 2021,
+   "what": "The United States' non-federal climate coalition: cities, states, tribal nations, businesses, universities and faith and health institutions committing to the Paris goals whatever the federal government does. It was formed in February 2021 by merging We Are Still In, the 2017 declaration signed by more than 4,000 US leaders, with America's Pledge, the quantification project Michael Bloomberg and Jerry Brown launched the same year. It claims all 50 states, 63 percent of the US population and 74 percent of GDP, and says it will continue through the second US withdrawal from Paris. Reporting in 2025 found corporate participation had thinned.",
+   "publishes": "Blueprint 2030 and other national emissions pathway analyses, member statements, and a clean energy investment hub.",
+   "latest": {
+    "title": "Coalition states it will continue despite the second US withdrawal from the Paris Agreement",
+    "date": "2026-08-09",
+    "url": "https://www.americaisallin.com/about"
+   },
+   "url": "https://www.americaisallin.com/",
+   "readFirst": {
+    "label": "About: the origin in We Are Still In and America's Pledge, and who leads it now",
+    "url": "https://www.americaisallin.com/about"
+   },
+   "founders": [
+    "Michael Bloomberg",
+    "Jerry Brown"
+   ]
+  },
+  {
+   "id": "sierraclub",
+   "name": "Sierra Club",
+   "full": "Sierra Club",
+   "kind": "advocacy",
+   "country": "USA",
+   "founded": 1892,
+   "what": "One of the oldest environmental organisations in the United States, and the operator of Beyond Coal, the campaign that has done more than any other single effort to shrink the American coal fleet. Its method is unglamorous and effective: state utility commission proceedings, local organising, litigation and resource-planning intervention, plant by plant. Bloomberg Philanthropies has been its largest funder for that work since 2011.",
+   "publishes": "Campaign trackers including a map of existing and retired coal plants, state-level analyses and press releases on individual plant retirements.",
+   "latest": {
+    "title": "Beyond Coal 2025: fighting for an affordable, renewable, zero-emission future",
+    "date": "2025-12-01",
+    "url": "https://www.sierraclub.org/articles/2025/12/beyond-coal-2025-fighting-affordable-renewable-zero-emission-future"
+   },
+   "url": "https://www.sierraclub.org/",
+   "readFirst": {
+    "label": "Beyond Coal: the campaign and its retirement tracker",
+    "url": "https://www.sierraclub.org/coal"
+   }
+  },
+  {
+   "id": "bezosearthfund",
+   "name": "Bezos Earth Fund",
+   "full": "Bezos Earth Fund",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 2020,
+   "what": "A 10 billion dollar commitment announced in February 2020, to be spent by 2030 on climate and nature, and the largest single philanthropic climate pledge made. It is behind schedule: as of April 2026 it reported 335 grants worth 2.4 billion dollars, about 28 percent of the pledge with four years left. It is a co-founder of the Global Energy Alliance for People and Planet, a major funder of ClimateWorks, and runs the Land and Carbon Lab and an AI grand challenge for climate and nature.",
+   "publishes": "Grant announcements and programme pages; funds data products including the Land and Carbon Lab rather than publishing datasets itself.",
+   "latest": {
+    "title": "Reported off pace to meet the 10 billion dollar climate giving pledge",
+    "date": "2026-05-28",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-28/bezos-earth-fund-is-off-pace-to-meet-10-billion-climate-giving-pledge"
+   },
+   "url": "https://www.bezosearthfund.org/",
+   "readFirst": {
+    "label": "Bezos Earth Fund grants and programmes",
+    "url": "https://www.bezosearthfund.org/"
+   },
+   "founders": [
+    "Jeff Bezos"
+   ]
+  },
+  {
+   "id": "climateworks",
+   "name": "ClimateWorks Foundation",
+   "full": "ClimateWorks Foundation",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 2008,
+   "what": "A regranting intermediary rather than an endowed foundation: other funders put money in, ClimateWorks routes it to implementers and pays for the strategy and research that decides where it goes. Over a billion dollars to more than 500 grantees since 2008. Its funder list, which includes Hewlett, Packard, Oak, Ford, the Bezos Earth Fund, Norway's forest initiative and CIFF, makes it the densest single node in the climate philanthropy network.",
+   "publishes": "Funding trend analyses of global climate philanthropy, sector strategy papers and grantee programme reporting.",
+   "latest": {
+    "title": "Carbon finance philanthropic donor statement, jointly with CIFF and the Bezos Earth Fund",
+    "date": "2025-01-01",
+    "url": "https://www.climateworks.org/press-release/carbon-finance-philanthropic-donor-statement/"
+   },
+   "url": "https://www.climateworks.org/",
+   "readFirst": {
+    "label": "ClimateWorks: the regranting model and where the money goes",
+    "url": "https://www.climateworks.org/"
+   }
+  },
+  {
+   "id": "europeanclimatefoundation",
+   "name": "European Climate Foundation",
+   "full": "European Climate Foundation",
+   "kind": "finance",
+   "country": "Netherlands",
+   "founded": 2008,
+   "what": "The European counterpart to ClimateWorks and built on the same model: philanthropic funders pool money, the foundation designs strategy and regrants to implementers across European climate policy, energy, transport and industry. Much of the analysis that shapes EU climate policy debate is funded from here, which is worth knowing when reading it.",
+   "publishes": "Commissioned policy analysis, sector reports and grantee programme material across European climate policy.",
+   "latest": {
+    "title": "Programme and grantmaking pages",
+    "date": "2026-08-09",
+    "url": "https://europeanclimate.org/"
+   },
+   "url": "https://europeanclimate.org/",
+   "readFirst": {
+    "label": "European Climate Foundation: what it funds in Europe",
+    "url": "https://europeanclimate.org/"
+   }
+  },
+  {
+   "id": "ciff",
+   "name": "CIFF",
+   "full": "Children's Investment Fund Foundation",
+   "kind": "finance",
+   "country": "UK",
+   "founded": 2002,
+   "what": "One of the largest independent climate funders in the world, unusual in combining child health and nutrition work with a substantial climate programme. It funds ClimateWorks, co-signs joint donor positions on carbon finance with the Bezos Earth Fund, and is a significant backer of climate policy and clean energy work in India, China and Africa.",
+   "publishes": "Grant announcements, joint donor statements and programme evaluations.",
+   "latest": {
+    "title": "Carbon finance philanthropic donor statement",
+    "date": "2025-01-01",
+    "url": "https://ciff.org/news/carbon-finance-philanthropic-donor-statement/"
+   },
+   "url": "https://ciff.org/",
+   "readFirst": {
+    "label": "CIFF climate programme",
+    "url": "https://ciff.org/"
+   }
+  },
+  {
+   "id": "rockefellerfoundation",
+   "name": "Rockefeller Foundation",
+   "full": "The Rockefeller Foundation",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 1913,
+   "what": "A century-old foundation whose climate work concentrates on energy access in the global south rather than on emissions in rich countries. It co-founded the Global Energy Alliance for People and Planet at COP26, funds the Mission 300 technical assistance facility for African electrification, and has pushed multilateral development banks to price transition risk differently.",
+   "publishes": "Energy access programme reporting, joint announcements with GEAPP and development banks, and policy papers on climate finance.",
+   "latest": {
+    "title": "GEAPP and the Rockefeller Foundation advance new energy access projects in more than a dozen African countries",
+    "date": "2025-01-28",
+    "url": "https://www.rockefellerfoundation.org/news/geapp-and-rockefeller-foundation-advance-new-energy-access-projects-in-more-than-a-dozen-african-countries/"
+   },
+   "url": "https://www.rockefellerfoundation.org/",
+   "readFirst": {
+    "label": "The Rockefeller Foundation's climate and energy access work",
+    "url": "https://www.rockefellerfoundation.org/"
+   }
+  },
+  {
+   "id": "geapp",
+   "name": "GEAPP",
+   "full": "Global Energy Alliance for People and Planet",
+   "kind": "finance",
+   "country": "international",
+   "founded": 2021,
+   "what": "Launched at COP26 by the Rockefeller Foundation, the IKEA Foundation and the Bezos Earth Fund, with up to 1.5 billion dollars from the three anchors and about 9 billion in aligned investment from eight development finance institutions. Its premise is that energy poverty and decarbonisation have to be solved together rather than traded off. Targets by 2030: clean energy access for a billion people, 150 million jobs and 4 gigatonnes of avoided future emissions. Over half its portfolio by value is in Africa.",
+   "publishes": "Programme and portfolio reporting, the Battery Energy Storage Systems Consortium's country pipelines, and joint announcements with development banks.",
+   "latest": {
+    "title": "UK entity incorporated as the alliance expands its structure",
+    "date": "2026-01-06",
+    "url": "https://energyalliance.org/"
+   },
+   "url": "https://energyalliance.org/",
+   "readFirst": {
+    "label": "How GEAPP works: the anchors, the partners and the 2030 targets",
+    "url": "https://energyalliance.org/how-we-work/"
+   }
+  },
+  {
+   "id": "iea",
+   "name": "IEA",
+   "full": "International Energy Agency",
+   "kind": "assessment",
+   "country": "international",
+   "founded": 1974,
+   "what": "Founded after the 1973 oil shock to co-ordinate emergency oil stocks, and now the closest thing the world has to an official energy statistics and scenario authority. Its World Energy Outlook and Net Zero Roadmap set the numbers most energy debates are argued over, and it produces the annual Breakthrough Agenda Report assessing whether countries are actually co-operating on clean technology. It sits inside the OECD and its membership is governments, which is both its authority and its constraint.",
+   "publishes": "The World Energy Outlook annually, the Breakthrough Agenda Report with the Climate High-Level Champions, monthly oil and electricity market reports, and free country energy statistics.",
+   "latest": {
+    "title": "Breakthrough Agenda Report 2025, the fourth edition, warning of an international collaboration gap",
+    "date": "2025-09-01",
+    "url": "https://www.iea.org/reports/breakthrough-agenda-report-2025"
+   },
+   "url": "https://www.iea.org/",
+   "readFirst": {
+    "label": "Breakthrough Agenda Report 2025 executive summary",
+    "url": "https://www.iea.org/reports/breakthrough-agenda-report-2025/executive-summary"
+   }
+  },
+  {
+   "id": "wri",
+   "name": "WRI",
+   "full": "World Resources Institute",
+   "kind": "research",
+   "country": "USA",
+   "founded": 1982,
+   "what": "A research organisation that also builds data infrastructure, which is the reason it matters here. It co-stewards the Greenhouse Gas Protocol, the accounting standard almost every corporate emissions number in the world is built on, is one of the four partners behind the Science Based Targets initiative, and runs Climate Watch and Global Forest Watch as open data platforms.",
+   "publishes": "The Greenhouse Gas Protocol standards, Climate Watch national emissions and NDC data, Global Forest Watch, and policy research across energy, food, forests and cities.",
+   "latest": {
+    "title": "Climate Watch and Global Forest Watch open data platforms",
+    "date": "2026-08-09",
+    "url": "https://www.wri.org/"
+   },
+   "url": "https://www.wri.org/",
+   "readFirst": {
+    "label": "Climate Watch: open national emissions and NDC data",
+    "url": "https://www.climatewatchdata.org/"
+   }
+  },
+  {
+   "id": "rmi",
+   "name": "RMI",
+   "full": "RMI (formerly Rocky Mountain Institute)",
+   "kind": "research",
+   "country": "USA",
+   "founded": 1982,
+   "what": "An independent energy research and implementation organisation, founded by Amory Lovins, that does the quantitative work behind a lot of US and increasingly global decarbonisation strategy. It co-led the research programme for America's Pledge, which quantified what US cities, states and businesses were doing after the first Paris withdrawal, and now holds a seat on the America Is All In secretariat.",
+   "publishes": "Sector decarbonisation analyses, the pathway modelling behind subnational climate strategies, and open tools including emissions and cost models.",
+   "latest": {
+    "title": "America Is All In programme and secretariat role",
+    "date": "2026-08-09",
+    "url": "https://rmi.org/america-is-all-in/"
+   },
+   "url": "https://rmi.org/",
+   "readFirst": {
+    "label": "RMI's America Is All In work",
+    "url": "https://rmi.org/america-is-all-in/"
+   },
+   "founders": [
+    "Amory Lovins"
+   ]
+  },
+  {
+   "id": "climate-trace",
+   "name": "Climate TRACE",
+   "full": "Climate TRACE (Tracking Real-time Atmospheric Carbon Emissions)",
+   "kind": "monitoring",
+   "country": "international",
+   "founded": 2020,
+   "what": "Most emissions numbers in the world are self-reported by the country or company doing the emitting, years late, using rough factors nobody outside can check. Climate TRACE does the opposite: it looks at the actual sources from space. Satellite imagery, infrared heat signatures, plumes and ship transponders are paired with the small number of sites that have verified sensors on the ground, an AI model is trained on that pairing, and only models that pass quality control against ground truth are applied to everything else. The result is an independent inventory of 745 million individual emitting assets, updated monthly. It is the only source on this list that can tell you what a single steel mill emitted last month.",
+   "publishes": "A monthly global greenhouse gas inventory with a two-month lag, plus annual country-level totals and source-level monthly data as open CSV, a beta REST API, a GeoPackage of source geometries and Zenodo-archived past versions, all Creative Commons 4.0.",
+   "latest": {
+    "title": "Climate TRACE releases May 2026 emissions data (version 5.9.0): 5.0 Gt CO2e for the month, year-to-date 25.3 Gt",
+    "date": "2026-07-30",
+    "url": "https://climatetrace.org/news/climate-trace-releases-may-2026-emissions-data"
+   },
+   "url": "https://climatetrace.org/",
+   "readFirst": {
+    "label": "How they do it: satellites, ground truth, and AI trained only where it can be checked",
+    "url": "https://climatetrace.org/approach"
+   },
+   "founders": [
+    "Al Gore",
+    "Gavin McCormick"
+   ]
+  },
+  {
+   "id": "watttime",
+   "name": "WattTime",
+   "full": "WattTime",
+   "kind": "monitoring",
+   "country": "USA",
+   "founded": 2014,
+   "what": "A non-profit founded in 2014 by Berkeley researchers including Gavin McCormick, and a subsidiary of RMI since 2017. It works out the marginal emissions rate of an electricity grid: not the average carbon per kilowatt-hour, but which power plant actually ramps up when you switch something on. That distinction is the whole point, because it is what determines whether shifting a load an hour later saves any carbon at all. WattTime also started the satellite power-plant monitoring work in 2019 that grew into Climate TRACE, and McCormick is one of Climate TRACE's two co-founders.",
+   "publishes": "Marginal emissions signals and forecasts by grid region via API, plus the power-sector estimates inside the Climate TRACE inventory.",
+   "url": "https://watttime.org/",
+   "founders": []
+  },
+  {
+   "id": "global-energy-monitor",
+   "name": "Global Energy Monitor",
+   "full": "Global Energy Monitor",
+   "kind": "data-centre",
+   "country": "USA",
+   "founded": 2007,
+   "what": "Keeps open, asset-by-asset trackers of the world's energy infrastructure: every coal plant, every gas terminal, every steel plant and coal mine it can find, with location, capacity, owner and status. It started in 2007 as CoalSwarm, an informal group of journalists documenting the 151 coal plants then proposed in the United States, and incorporated as an independent non-profit in 2017. Nobody else maintains a public register at that grain, which is why its databases turn up underneath other people's analysis constantly, including the coal, power and cement sectors of the Climate TRACE inventory.",
+   "publishes": "The Global Coal Plant Tracker and its sibling trackers for gas, oil, steel, cement, coal mines and more, released as open datasets with periodic status reports.",
+   "url": "https://globalenergymonitor.org/",
+   "founders": []
+  },
+  {
+   "id": "transitionzero",
+   "name": "TransitionZero",
+   "full": "TransitionZero",
+   "kind": "research",
+   "country": "UK",
+   "founded": 2021,
+   "what": "A climate analytics non-profit, registered in England and Wales as charity 1194424, that builds open energy-system models and data so that anyone, not just consultancies with expensive licences, can test whether a decarbonisation plan adds up. It was one of the two organisations that took the 2019 Google.org grant to watch power plants from space, which is where Climate TRACE started, and it now supplies the heavy-industry and steel analysis inside that inventory. Its own site says 2021; its co-founder has said 2020.",
+   "publishes": "Open energy modelling tools and data platforms, plus sector analyses on steel, coal and power transitions.",
+   "url": "https://www.transitionzero.org/",
+   "founders": []
+  },
+  {
+   "id": "ctrees",
+   "name": "CTrees",
+   "full": "CTrees",
+   "kind": "monitoring",
+   "country": "USA",
+   "founded": 2022,
+   "what": "Measures carbon in forests from satellite, tree by tree where the imagery allows, and tracks where it is being lost. Founded in 2022 in Pasadena by Sassan Saatchi. Forest and land-use emissions are the hardest line in any national inventory to verify independently, which is exactly why an outside measurement of it matters; CTrees supplies that sector to Climate TRACE.",
+   "publishes": "Global forest carbon and land-use emissions datasets and monitoring platforms.",
+   "url": "https://ctrees.org/",
+   "founders": []
+  },
+  {
+   "id": "earth-genome",
+   "name": "Earth Genome",
+   "full": "Earth Genome",
+   "kind": "research",
+   "country": "USA",
+   "what": "A non-profit engineering shop for environmental data, co-founded by Steve McCormick and Glen Low; it does not state a founding year on its own site. It builds the pipelines, models and public tools that let scientific work reach people who are not scientists, and it does much of the platform engineering that turns Climate TRACE's raw model output into something a person can actually query on a map.",
+   "publishes": "Open geospatial tools and data products built with partner science organisations.",
+   "url": "https://www.earthgenome.org/",
+   "founders": []
+  },
+  {
+   "id": "oceanmind",
+   "name": "OceanMind",
+   "full": "OceanMind",
+   "kind": "monitoring",
+   "country": "UK",
+   "founded": 2018,
+   "what": "Tracks ships from satellite and transponder data using machine learning, originally to catch illegal fishing. The idea came out of a 2013 Satellite Applications Catapult workshop and launched as an independent not-for-profit in 2018. The same technique answers a climate question nobody could previously answer from outside: what did international shipping actually emit, vessel by vessel, this month. That is the shipping sector of the Climate TRACE inventory.",
+   "publishes": "Vessel activity and compliance intelligence, and the shipping emissions estimates in Climate TRACE.",
+   "url": "https://oceanmind.global/",
+   "founders": []
+  },
+  {
+   "id": "global-optimism",
+   "name": "Global Optimism",
+   "full": "Global Optimism Ltd",
+   "kind": "advocacy",
+   "country": "UK",
+   "founded": 2017,
+   "what": "The small company Christiana Figueres and Tom Rivett-Carnac set up after leaving the UN climate secretariat, built around a specific and arguable claim: that despair is a bad strategy and that treating a hard outcome as achievable is what makes people act. It is not a research body and produces no data. It earns its place because two of the things it runs are substantial in their own right, the Climate Pledge with Amazon and a weekly climate podcast now in its twelfth season. Sources disagree on whether it was founded in 2016 or 2017.",
+   "publishes": "The Outrage + Optimism podcast weekly, a fortnightly newsletter, and the books The Future We Choose (2020) and When We All Stopped.",
+   "latest": {
+    "title": "Outrage + Optimism episode 61, Cheapest Energy in History. Still Heading for 3 Degrees?, with Adair Turner",
+    "date": "2026-08-06",
+    "url": "https://shows.acast.com/outrage-optimism"
+   },
+   "url": "https://www.globaloptimism.com/",
+   "readFirst": {
+    "label": "The podcast, which is the most substantial thing they actually publish",
+    "url": "https://www.outrageandoptimism.org/"
+   },
+   "founders": [
+    "Christiana Figueres",
+    "Tom Rivett-Carnac"
+   ]
+  },
+  {
+   "id": "climate-reality-project",
+   "name": "The Climate Reality Project",
+   "full": "The Alliance for Climate Protection, doing business as The Climate Reality Project",
+   "kind": "advocacy",
+   "country": "USA",
+   "founded": 2006,
+   "what": "Al Gore's training and organising operation, and still legally the Alliance for Climate Protection he set up after An Inconvenient Truth. It trains people to give the climate talk and to organise where they live, starting with fifty people in a Tennessee barn in 2006 and now running two-day trainings worldwide with branches on every inhabited continent. Its predecessor spent heavily on US political advertising; after the 2011 rename the centre of gravity moved to training and grassroots work. It produces no data and does no research.",
+   "publishes": "Leadership Corps trainings, campaign material, a regular blog and annual impact and audited financial reports.",
+   "latest": {
+    "title": "Twenty years of the Climate Reality Leadership Corps, with trainings announced for Singapore, Budapest and Addis Ababa",
+    "date": "2026-07-14",
+    "url": "https://www.climaterealityproject.org/training"
+   },
+   "url": "https://www.climaterealityproject.org/",
+   "founders": [
+    "Al Gore"
+   ]
+  },
+  {
+   "id": "generation-investment-management",
+   "name": "Generation IM",
+   "full": "Generation Investment Management LLP",
+   "kind": "finance",
+   "country": "UK",
+   "founded": 2004,
+   "what": "The asset manager Al Gore founded with David Blood, formerly head of Goldman Sachs Asset Management, on the thesis that sustainability analysis is not a moral overlay but a source of information about which companies will still be good businesses in twenty years. It manages USD 22.9 billion as at 30 June 2026 across public and private equity and has been a certified B Corporation since 2015. Whether the thesis is right is a question about returns, and the firm publishes enough for anyone to argue about it.",
+   "publishes": "The Sustainability Trends Report annually since 2017, plus climate and nature reporting, a transition plan and stewardship disclosures.",
+   "latest": {
+    "title": "The Sustainability Trends Report 2025, the ninth annual edition",
+    "date": "2025-09-17",
+    "url": "https://www.generationim.com/our-thinking/"
+   },
+   "url": "https://www.generationim.com/",
+   "founders": [
+    "Al Gore",
+    "David Blood"
+   ]
+  },
+  {
+   "id": "just-climate",
+   "name": "Just Climate",
+   "full": "Just Climate",
+   "kind": "finance",
+   "country": "UK",
+   "founded": 2021,
+   "what": "An investment business launched in October 2021 by Generation Investment Management, chaired by David Blood, with Al Gore chairing its Climate Impact Advisory Group. It aims specifically at the hard-to-abate parts of the economy that ordinary climate funds avoid: heavy industry, heat, industrial land use. Its stated organising idea is the time value of carbon, meaning a tonne avoided this decade is worth more than a tonne avoided in the 2040s, so it backs solutions that can scale now rather than incremental improvement.",
+   "publishes": "Investment announcements and integrated impact reporting; its assets are counted inside Generation's headline figure.",
+   "url": "https://www.justclimate.com/",
+   "founders": [
+    "Generation Investment Management"
+   ]
+  },
+  {
+   "id": "earthshot-prize",
+   "name": "The Earthshot Prize",
+   "full": "The Earthshot Prize",
+   "kind": "advocacy",
+   "country": "UK",
+   "founded": 2020,
+   "what": "A ten-year environmental prize founded by Prince William that gives five winners one million pounds each year, chosen from fifteen finalists across five categories: nature, air, oceans, waste and climate. The design bet is that the money matters less than the attention, and that scaling an existing working solution beats funding another pilot. Christiana Figueres was its first Chair of the Board and handed over to Jesper Brodin on 1 March 2026, staying on the Prize Council that picks the winners. 2026 is the midpoint of the ten years; the awards are in Mumbai in November.",
+   "publishes": "An annual cohort of fifteen finalists and five winners, plus impact reports and research with partners.",
+   "latest": {
+    "title": "The Earthshot Prize appoints Smita Rakesh as Director of India ahead of the Mumbai summit",
+    "date": "2026-08-05",
+    "url": "https://earthshotprize.org/about-us/"
+   },
+   "url": "https://earthshotprize.org/",
+   "founders": [
+    "Prince William"
+   ]
+  },
+  {
+   "id": "lancet-commission-sea-level-rise",
+   "name": "Lancet Commission on Sea-Level Rise",
+   "full": "The Lancet Commission on Sea-Level Rise, Health and Justice",
+   "kind": "assessment",
+   "country": "international",
+   "founded": 2026,
+   "what": "Twenty-six experts convened by The Lancet, with support from the World Health Organization's Asia Pacific Centre for Environment and Health, to assess sea-level rise as a health and justice problem rather than only a physical one: contaminated freshwater, failing sanitation, waterborne and vector-borne disease, food security, displacement, and who is accountable for the harm. It was set up in response to appeals from health ministers of Pacific island states. Co-chaired by Christiana Figueres, Kathryn Bowen and Jiho Cha. It has published nothing yet.",
+   "publishes": "A single full Commission report, due September 2027.",
+   "latest": {
+    "title": "Lancet Commission on Sea-Level Rise, Health and Justice announced with 26 experts and a September 2027 report date",
+    "date": "2026-04-08",
+    "url": "https://www.eco-business.com/news/new-lancet-commission-aims-to-tackle-health-and-justice-concerns-from-sea-level-rise/"
+   },
+   "url": "https://www.thelancet.com/",
+   "founders": [
+    "Christiana Figueres",
+    "Kathryn Bowen",
+    "Jiho Cha"
+   ]
+  },
+  {
+   "id": "mission-2020",
+   "name": "Mission 2020",
+   "full": "Mission 2020",
+   "kind": "advocacy",
+   "country": "UK",
+   "founded": 2017,
+   "what": "DEFUNCT. A campaign convened by Christiana Figueres in April 2017 around one testable claim: that global greenhouse gas emissions had to peak before 2020 and fall fast afterwards for 1.5 C to remain reachable. It set six sectoral milestones for 2020, including renewables at 30 per cent of world electricity and no new coal plants. The target was missed. Emissions did not peak; the 2020 dip was COVID-19 confinement and it reversed, and fossil CO2 in 2024 was higher than in 2019. The campaign's own domain has since lapsed and now redirects to an unrelated site, and no formal closing statement was found.",
+   "publishes": "Published The Climate Turning Point report in 2017. Nothing since; the organisation is not operating.",
+   "latest": {
+    "title": "Emissions are still rising: ramp up the cuts, a Nature comment co-authored by Mission 2020's own convenor two years before the deadline",
+    "date": "2018-11-28",
+    "url": "https://www.nature.com/articles/d41586-018-07585-6"
+   },
+   "url": "https://www.carbonbrief.org/mission-2020-new-global-strategy-rapidly-reduce-carbon-emissions/",
+   "founders": [
+    "Christiana Figueres"
+   ]
+  },
+  {
+   "id": "ccac",
+   "name": "CCAC",
+   "full": "Climate and Clean Air Coalition",
+   "kind": "coalition",
+   "country": "France",
+   "founded": 2012,
+   "what": "A voluntary partnership of governments, intergovernmental bodies and NGOs working on the short-lived climate pollutants: methane, black carbon, hydrofluorocarbons and tropospheric ozone. Started in 2012 with six countries and UNEP; now well over 160 partners, with UNEP hosting the secretariat in Paris. It matters here because it is the body that actually runs the Global Methane Pledge day to day, and because short-lived pollutants are the part of the warming problem where action changes the temperature within a decade rather than a century.",
+   "publishes": "The Global Methane Assessment and the annual-scale Global Methane Status Report with UNEP; the Methane Flagship and Methane Roadmap Action Programme; country methane roadmaps; Trust Fund project work in more than 90 countries.",
+   "latest": {
+    "title": "Global Methane Status Report launched at the 2025 GMP Ministerial, COP30 Belem",
+    "date": "2025-11-17",
+    "url": "https://www.globalmethanepledge.org/news/highlights-2025-global-methane-pledge-ministerial"
+   },
+   "url": "https://www.ccacoalition.org/",
+   "readFirst": {
+    "label": "What the CCAC is",
+    "url": "https://www.ccacoalition.org/content/climate-and-clean-air-coalition"
+   },
+   "founders": []
+  },
+  {
+   "id": "weforum",
+   "name": "World Economic Forum",
+   "full": "World Economic Forum",
+   "kind": "policy",
+   "country": "Switzerland",
+   "founded": 1971,
+   "what": "The Geneva-based organisation for public-private cooperation, best known for its Davos meeting. It appears in the climate record as the host of the First Movers Coalition, which it co-launched with the US government in 2021 and now runs as a standing programme. Its climate output is convening and demand aggregation rather than measurement, so read it as a coordinator, never as a data source.",
+   "publishes": "The First Movers Coalition Impact Brief and status reports; sector transition analyses, usually with a consultancy partner.",
+   "latest": {
+    "title": "First Movers Coalition Impact Brief, January 2026",
+    "date": "2026-01-19",
+    "url": "https://reports.weforum.org/docs/WEF_First_Movers_Coalition_Impact_Brief_2026.pdf"
+   },
+   "url": "https://www.weforum.org/",
+   "readFirst": {
+    "label": "First Movers Coalition Impact Brief 2026 (PDF)",
+    "url": "https://reports.weforum.org/docs/WEF_First_Movers_Coalition_Impact_Brief_2026.pdf"
+   },
+   "founders": []
+  },
+  {
+   "id": "first-movers-coalition",
+   "name": "First Movers Coalition",
+   "full": "First Movers Coalition (FMC)",
+   "kind": "coalition",
+   "country": "Switzerland",
+   "founded": 2021,
+   "what": "A buyers' club for things that do not exist cheaply yet. Members commit to purchase near-zero-emission versions of hard-to-abate industrial products by 2030, so a market exists before the technology is competitive. Launched at COP26 by the World Economic Forum and the US Special Presidential Envoy for Climate office with 35 founding members in aviation, steel, shipping and trucking; aluminium, carbon dioxide removal, and cement and concrete were added in 2022, making seven sectors.",
+   "publishes": "An annual impact brief and periodic status reports; a public commitments register by member and sector.",
+   "latest": {
+    "title": "101 members, 14 government partners, more than USD 19 billion of 2030 demand and more than 130 offtake agreements",
+    "date": "2026-01-19",
+    "url": "https://reports.weforum.org/docs/WEF_First_Movers_Coalition_Impact_Brief_2026.pdf"
+   },
+   "url": "https://initiatives.weforum.org/first-movers-coalition/home",
+   "readFirst": {
+    "label": "Impact Brief 2026 (PDF, the numbers)",
+    "url": "https://reports.weforum.org/docs/WEF_First_Movers_Coalition_Impact_Brief_2026.pdf"
+   },
+   "founders": [
+    "World Economic Forum",
+    "John Kerry"
+   ]
+  },
+  {
+   "id": "c2es",
+   "name": "C2ES",
+   "full": "Center for Climate and Energy Solutions",
+   "kind": "research",
+   "country": "USA",
+   "founded": 2011,
+   "what": "A US climate and energy policy institute, successor to the Pew Center on Global Climate Change. It provided lead coordination, with the Environmental Defense Fund, for the Energy Transition Accelerator, and it is now the only surviving contact point for that initiative: the ETA website has been reduced to a stub pointing readers at C2ES's voluntary carbon markets work. C2ES also publishes plain-language summaries of what each COP actually decided.",
+   "publishes": "COP outcome briefs; carbon market and carbon pricing analysis; US federal and state policy trackers.",
+   "latest": {
+    "title": "Key Negotiations and Related Outcomes of the UN Climate Conference in Belem",
+    "date": "2025-11-24",
+    "url": "https://www.c2es.org/document/key-negotiations-related-outcomes-of-the-un-climate-conference-in-belem/"
+   },
+   "url": "https://www.c2es.org/",
+   "readFirst": {
+    "label": "C2ES home",
+    "url": "https://www.c2es.org/"
+   },
+   "founders": []
+  },
+  {
+   "id": "edf",
+   "name": "EDF",
+   "full": "Environmental Defense Fund",
+   "kind": "advocacy",
+   "country": "USA",
+   "founded": 1967,
+   "what": "A US environmental organisation that pairs advocacy with its own measurement. It built and operated MethaneSAT, launched March 2024 to pinpoint oil and gas methane hotspots at three parts per billion sensitivity with freely released data; the satellite lost contact on 20 June 2025 and was declared likely unrecoverable on 1 July 2025, 15 months into a planned five-year mission, though its collected scenes are still being released and the MethaneAIR aircraft campaign continues. EDF also co-coordinated the Energy Transition Accelerator with C2ES and did the Dominican Republic power-system modelling that would have underpinned that country's participation.",
+   "publishes": "MethaneSAT and MethaneAIR emissions data; peer-reviewed methane measurement studies; policy analysis and legal filings.",
+   "latest": {
+    "title": "MethaneSAT loses contact with satellite; likely not recoverable",
+    "date": "2025-07-01",
+    "url": "https://www.edf.org/media/methanesat-loses-contact-satellite"
+   },
+   "url": "https://www.edf.org/",
+   "readFirst": {
+    "label": "EDF home",
+    "url": "https://www.edf.org/"
+   },
+   "founders": []
+  },
+  {
+   "id": "bezos-earth-fund",
+   "name": "Bezos Earth Fund",
+   "full": "Bezos Earth Fund",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 2020,
+   "what": "A USD 10 billion philanthropic commitment to climate and nature, disbursing through 2030. In this part of the record it is one of the two philanthropies that funded the design of the Energy Transition Accelerator with the US State Department, and it was also a funder of EDF's MethaneSAT. Its news archive is the surviving copy of several ETA announcements that the other partner has since taken offline.",
+   "publishes": "Grant announcements and programme news; no primary climate data.",
+   "latest": {
+    "title": "Energy Transition Accelerator and World Bank to scale up clean energy finance",
+    "date": "2023-09-20",
+    "url": "https://www.bezosearthfund.org/news-and-insights/energy-transition-accelerator-world-bank-scale-up-clean-energy-finance"
+   },
+   "url": "https://www.bezosearthfund.org/",
+   "readFirst": {
+    "label": "Bezos Earth Fund home",
+    "url": "https://www.bezosearthfund.org/"
+   },
+   "founders": []
+  },
+  {
+   "id": "rockefeller-foundation",
+   "name": "The Rockefeller Foundation",
+   "full": "The Rockefeller Foundation",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 1913,
+   "what": "A century-old US philanthropy with a large energy access and climate portfolio, and the second philanthropic partner behind the Energy Transition Accelerator. Worth a caution for researchers: several of its ETA news pages, including the COP27 launch release, now return HTTP 404, so citations to them break.",
+   "publishes": "Grant and initiative announcements; energy access and climate finance reports.",
+   "latest": {
+    "title": "Energy Transition Accelerator Advances With New Secretariat, Expert Consultative Group",
+    "date": "2023-02-01",
+    "url": "https://www.rockefellerfoundation.org/news/energy-transition-accelerator-advances-with-new-secretariat-expert-consultative-group/"
+   },
+   "url": "https://www.rockefellerfoundation.org/",
+   "readFirst": {
+    "label": "Rockefeller Foundation newsroom",
+    "url": "https://www.rockefellerfoundation.org/news/"
+   },
+   "founders": []
+  },
+  {
+   "id": "winrock-international",
+   "name": "Winrock International",
+   "full": "Winrock International",
+   "kind": "monitoring",
+   "country": "USA",
+   "founded": 1985,
+   "what": "A US non-profit working on agriculture, environment and development, whose Environmental Resources Trust subsidiary builds carbon crediting standards. In April 2023 it was selected to develop and administer the Energy Transition Accelerator's crediting standard, a sector-scale no-lose design that would reward a whole national electricity sector for verified aggregate emission reductions rather than crediting individual projects.",
+   "publishes": "Carbon crediting standards and methodology documents; development programme reporting.",
+   "latest": {
+    "title": "Key Elements of a Sectoral Crediting Standard for the Energy Transition Accelerator",
+    "date": "2023-11-01",
+    "url": "https://www.etaccelerator.org/"
+   },
+   "url": "https://winrock.org/",
+   "readFirst": {
+    "label": "Winrock climate work",
+    "url": "https://winrock.org/expertise/climate/"
+   },
+   "founders": []
+  },
+  {
+   "id": "clean-energy-buyers-association",
+   "name": "CEBA",
+   "full": "Clean Energy Buyers Association",
+   "kind": "coalition",
+   "country": "USA",
+   "founded": 2014,
+   "what": "An association of large corporate purchasers of clean energy, formerly the Renewable Energy Buyers Alliance. It runs the secretariat of the Clean Energy Demand Initiative jointly with the US State Department's Bureau of Energy Resources: recruiting companies, surveying participants, publishing market reports and convening buyer-government roundtables. It is the operational half of the demand-signal idea that also drives the First Movers Coalition.",
+   "publishes": "Corporate clean energy procurement market reports; deal trackers; policy guidance for enabling markets.",
+   "latest": {
+    "title": "CEDI Secretariat formed with the US Department of State",
+    "date": "2022-11-10",
+    "url": "https://2021-2025.state.gov/the-clean-energy-demand-initiative-cedi/"
+   },
+   "url": "https://cebuyers.org/",
+   "readFirst": {
+    "label": "CEBA home",
+    "url": "https://cebuyers.org/"
+   },
+   "founders": []
+  },
+  {
+   "id": "clean-energy-ministerial",
+   "name": "Clean Energy Ministerial",
+   "full": "Clean Energy Ministerial (CEM)",
+   "kind": "policy",
+   "country": "France",
+   "founded": 2010,
+   "what": "A high-level global forum of energy ministers that runs technology-specific campaigns and initiatives, with its secretariat hosted by the IEA. It now carries the Carbon Management Challenge through its Gigatonne by 2030 campaign, and holds the ministerial roundtables where that challenge's progress is reported. It is the institutional home initiatives land in when the government that launched them stops convening.",
+   "publishes": "Campaign and initiative progress notes; ministerial communiques; technology programme reports.",
+   "latest": {
+    "title": "Developments with Carbon Management (CCUS and CDR) Programmes",
+    "date": "2025-08-26",
+    "url": "https://www.cleanenergyministerial.org/content/uploads/2025/08/carbon-management-programmes_26aug2025.pdf"
+   },
+   "url": "https://www.cleanenergyministerial.org/",
+   "readFirst": {
+    "label": "Gigatonne by 2030",
+    "url": "https://www.cleanenergyministerial.org/initiatives-campaigns/gigatonne-by-2030/"
+   },
+   "founders": []
+  },
+  {
+   "id": "imo",
+   "name": "IMO",
+   "full": "International Maritime Organization",
+   "kind": "policy",
+   "country": "UK",
+   "founded": 1948,
+   "what": "The UN specialised agency that regulates international shipping, a sector that would rank around sixth in the world if it were a country. Its 2023 revised greenhouse gas strategy set net-zero emissions from international shipping by or around 2050, replacing a weaker 2018 target. Its GreenVoyage 2050 programme, which helps developing countries implement that strategy, was a recipient of Green Shipping Challenge pledges.",
+   "publishes": "The IMO GHG Strategy and its revisions; the IMO GHG Studies; fuel and efficiency regulations.",
+   "latest": {
+    "title": "2023 IMO Strategy on Reduction of GHG Emissions from Ships",
+    "date": "2023-07-07",
+    "url": "https://www.imo.org/en/OurWork/Environment/Pages/2023-IMO-Strategy-on-Reduction-of-GHG-Emissions-from-Ships.aspx"
+   },
+   "url": "https://www.imo.org/",
+   "readFirst": {
+    "label": "The 2023 IMO GHG Strategy",
+    "url": "https://www.imo.org/en/OurWork/Environment/Pages/2023-IMO-Strategy-on-Reduction-of-GHG-Emissions-from-Ships.aspx"
+   },
+   "founders": []
+  },
+  {
+   "id": "globe-legislators",
+   "name": "GLOBE",
+   "full": "GLOBE International AISBL, the Global Legislators Organisation for a Balanced Environment",
+   "kind": "policy",
+   "country": "Belgium",
+   "founded": 1991,
+   "what": "A cross-party international organisation of serving national legislators, headquartered in Brussels, and the UNFCCC focal point for the parliamentary group. It exists because treaties are ratified and climate law is written in parliaments, not at COPs. Founding date is genuinely contested: GLOBE's own site says 1991, founded by Senators Al Gore and John Kerry with counterparts in the European Parliament, Russian Duma and Japanese Diet, while UNDRR and GLOBE's own LinkedIn say 1989, founded by G8 legislators. Not the same thing as the GLOBE Program, the schools science programme Gore launched in 1994.",
+   "publishes": "Global surveys of parliamentary engagement in NDCs and the Global Stocktake; parliamentary guides (Article 6 and carbon markets); climate laws briefing notes; the Parliamentarians@COP newsletter.",
+   "latest": {
+    "title": "Parliamentary Engagement in NDCs 3.0: Results of a Global Study",
+    "date": "2025-06-01",
+    "url": "https://globelegislators.org/"
+   },
+   "url": "https://globelegislators.org/",
+   "readFirst": {
+    "label": "GLOBE home",
+    "url": "https://globelegislators.org/"
+   },
+   "founders": [
+    "Al Gore",
+    "John Kerry"
+   ]
+  },
+  {
+   "id": "galvanize-climate",
+   "name": "Galvanize Climate Solutions",
+   "full": "Galvanize Climate Solutions",
+   "kind": "finance",
+   "country": "USA",
+   "founded": 2021,
+   "what": "A San Francisco investment firm built around the energy transition, investing across credit, global equities, real estate, and venture and growth. Founded by Katie Hall and Tom Steyer; it closed an inaugural venture fund at about USD 1 billion. It is on this list as the clearest example of climate diplomacy moving into private finance: John Kerry was announced as co-executive chair in October 2024 and is listed today as Co-Chair, and David Livingston, his senior adviser at the Special Presidential Envoy office, is the firm's Chief Strategy Officer.",
+   "publishes": "Firm and portfolio announcements; no primary climate data.",
+   "latest": {
+    "title": "Secretary John Kerry joins Galvanize Climate Solutions as co-executive chair",
+    "date": "2024-10-07",
+    "url": "https://galvanizeclimate.com/team/secretary-john-kerry"
+   },
+   "url": "https://galvanizeclimate.com/",
+   "readFirst": {
+    "label": "Galvanize team",
+    "url": "https://galvanizeclimate.com/team"
+   },
+   "founders": [
+    "Katie Hall",
+    "Tom Steyer"
+   ]
+  },
+  {
+   "id": "us-spec-office",
+   "name": "US Climate Envoy office",
+   "full": "Office of the US Special Presidential Envoy for Climate (SPEC)",
+   "kind": "policy",
+   "country": "USA",
+   "founded": 2021,
+   "what": "The US State Department office created on 20 January 2021 under Executive Order 14008 to run US climate diplomacy, with its envoy sitting on the principals committee of the National Security Council, the first time an NSC principal was dedicated solely to climate. About 30 staff and a budget near USD 17 million a year. John Kerry held the post to 6 March 2024, John Podesta to 20 January 2025. ABOLISHED in April 2025 in the State Department reorganisation, along with the separate career Office of Global Change that ran the negotiations. The post is vacant, the live state.gov page returns 404, and every primary document now sits behind an archive banner reading 'content released from January 20, 2021 to January 20, 2025, NOT UPDATED'. Most of the coalitions this office launched are traceable to that fact.",
+   "publishes": "Nothing further. Its record survives only on the 2021-2025 State Department archive.",
+   "latest": {
+    "title": "Office abolished in the State Department reorganisation",
+    "date": "2025-04-22",
+    "url": "https://www.eenews.net/articles/rubio-shutters-state-department-climate-office/"
+   },
+   "url": "https://2021-2025.state.gov/bureaus-offices/secretary-of-state/office-of-the-u-s-special-presidential-envoy-for-climate/",
+   "readFirst": {
+    "label": "The archived office page (note the archive banner)",
+    "url": "https://2021-2025.state.gov/bureaus-offices/secretary-of-state/office-of-the-u-s-special-presidential-envoy-for-climate/"
+   },
+   "founders": [
+    "John Kerry"
+   ]
+  },
+  {
+   "id": "world-war-zero",
+   "name": "World War Zero",
+   "full": "World War Zero",
+   "kind": "advocacy",
+   "country": "USA",
+   "founded": 2019,
+   "what": "A bipartisan US climate advocacy coalition launched by John Kerry in December 2019, built on a World War II mobilisation analogy and more than 60 founding members including Bill Clinton, Jimmy Carter, Arnold Schwarzenegger, John Kasich and Leonardo DiCaprio. It planned in-person town halls and went all-digital in the pandemic. APPEARS DEFUNCT: worldwarzero.com returns HTTP 200 but renders nothing, its sitemap contains a single /lander URL, and the last web archive capture with real content is 12 October 2024. Listed here so the record shows what became of it, not as a live organisation.",
+   "publishes": "Nothing since 2024.",
+   "latest": {
+    "title": "Last web archive capture with content; the domain now serves a parking page",
+    "date": "2024-10-12",
+    "url": "http://web.archive.org/web/20241012073305/https://worldwarzero.com/"
+   },
+   "url": "https://worldwarzero.com/",
+   "readFirst": {
+    "label": "The last archived version of the site",
+    "url": "http://web.archive.org/web/20241012073305/https://worldwarzero.com/"
+   },
+   "founders": [
+    "John Kerry"
+   ]
+  }
+ ]
+}

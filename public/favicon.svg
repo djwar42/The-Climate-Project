@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!--
+    THE CLIMATE PROJECT favicon - THE BASELINE AND THE DEPARTURE.
+
+    The site's most repeated argument is that a temperature figure means nothing
+    without the baseline it departs from: warmer, but than when? So the mark is
+    the two things every chart here draws. The heavy ink rule is the baseline,
+    running edge to edge because a datum is not part of the data. The vermilion
+    column is the record, and it CROSSES the rule rather than standing on it,
+    which is the whole point: an anomaly is measured from a line, and it can be
+    on either side of it.
+
+    Three flat fills, no gradients, no text. The paper ground is carried in the
+    file rather than left transparent so the mark survives a dark browser tab,
+    and paper-with-ink is the site's own surface anyway.
+
+    Palette, and all three are this site's live values: paper #f4f0e4 and ink
+    #2a2722 as declared at the top of every page file, and vermilion #ff3c1a,
+    NEON[0], the signal that ends the wordmark.
+
+    It is a 16 pixel object authored at 64. Two shapes, checked small: the rule
+    lands at 2px and the column at 5px wide, which is why neither is thinner.
+  -->
+  <rect width="64" height="64" fill="#f4f0e4"/>
+  <rect x="24" y="8" width="20" height="48" fill="#ff3c1a"/>
+  <rect x="0" y="36" width="64" height="8" fill="#2a2722"/>
+</svg>

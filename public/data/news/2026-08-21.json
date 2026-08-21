@@ -1,0 +1,279 @@
+{
+  "date": "2026-08-21",
+  "title": "Three producers, three rankings for one July - and an El Nino forecast that only works on the index nobody announced",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Eleven days, and almost every thread the last round left open has closed. NOAA NCEI's July report, which returned 404 on 10 August, is published. NASA GISS, which printed asterisks for July, has a number. Copernicus put its July bulletin page up on the very day of the last round and revised its own headline in doing so. CPC issued the 13 August ENSO discussion the last round said it would be scored against, and it raised the forecast to a level that only makes sense on the index this project spent the last round documenting. NSIDC's analysis service, which two of our rounds recorded as lost, came back on 19 August. And the Arctic melt this round called slow proceeded to run at more than two standard deviations fast. A note on dates: every read below was made on 21 August 2026 UTC, and where a number contradicts something this project published on 8 or 10 August, that is said in the block rather than quietly corrected."
+    },
+    {
+      "type": "h",
+      "text": "ONE JULY, THREE PRODUCERS, THREE RANKINGS"
+    },
+    {
+      "type": "observed",
+      "text": "NOAA NCEI has published July 2026, and it is a first place. Checked on 2026-08-21: the monthly-report shell for 202607 returns HTTP 200, but that page is a JavaScript shell and a 200 on it proves nothing, so the figure below is read from the underlying Climate at a Glance series instead. Global land and ocean, July, against the 1901-2000 average: July 2026 at +1.18°C, first in a record of 177 Julys running from 1850 - and tied to the hundredth with July 2024, also +1.18, with July 2023 third at +1.16. On 9 August this same series ran only to 2025."
+    },
+    {
+      "type": "observed",
+      "text": "NASA GISS has published July 2026 as well. The GISTEMP v4 global table returned HTTP 200 on 2026-08-21 and its source line has advanced from the '1880-06/2026' the last round quoted to 'GHCN-v4 1880-07/2026 + SST: ERSST v5 1880-07/2026'. The 2026 row now reads January 1.08, February 1.24, March 1.32, April 1.17, May 1.13, June 1.18, July 1.23°C above 1951-1980, with August onward still asterisks. Computed by us from that table: July 2026 is the warmest July in all 147 Julys GISS holds, ahead of 2024 at 1.20 and 2023 at 1.19. The January-to-July mean, 1.193, is third behind 2024 at 1.283 and 2025 at 1.203."
+    },
+    {
+      "type": "observed",
+      "text": "Copernicus changed its own headline, on the day of our last round. The C3S page 'Surface air temperature for July 2026' was published 10 August 2026 and read by us on 2026-08-21. Its words: 'July 2026 was only marginally cooler than July 2024, by 0.01°C. Given this small difference, the two months are considered the joint-second warmest Julys on record, behind the record set in July 2023 (16.95°C, or 0.72°C above average).' The July 2026 figures on that page: 16.90°C global average, 0.67 above the 1991-2020 July mean, 1.47 above 1850-1900. The twelve months August 2025 to July 2026 averaged 0.57 above 1991-2020 and 1.45 above 1850-1900."
+    },
+    {
+      "type": "observed",
+      "text": "The underlying C3S data file has not moved. Re-read on 2026-08-21, the bulletin CSV for 202607 still gives July 2026 as 1.4711°C above 1850-1900 against July 2024's 1.4790 and July 2023's 1.5244, unrevised since we read it on 9 August. The gap between 2024 and 2026 is 0.0079°C. So the number did not change; the ranking C3S prints beside it did."
+    },
+    {
+      "type": "inference",
+      "text": "Our reading, and it is the finding of this round: three producers have published the same month and no two of them rank it the same way. NCEI puts July 2026 first, tied with 2024. GISS puts it first outright. C3S puts it joint second with 2024, behind 2023. All three are correct on their own numbers, because the spread among the top three Julys is 0.04°C on GISTEMP, 0.02 on NCEI and 0.05 on ERA5, and no monthly global mean is accurate to that. The ordinal is not a measurement. It is what happens when a continuous quantity with real uncertainty is forced onto a leaderboard."
+    },
+    {
+      "type": "inference",
+      "text": "And this project called it in advance, which is the reason to say so rather than to quietly restate. The 8 August round's mundane block read: 'July 2026 sits 0.0079°C below July 2024 on ERA5's own numbers. That gap is far inside the uncertainty of a monthly global mean, so second and third are not distinguishable here and the ordinal is an artefact of printing four decimal places.' Two days later C3S itself declared them a tie for exactly that reason. Our arithmetic anticipated the producer's own editorial decision. The consequence is that the 8 August round's headline word, 'third-warmest', is superseded by the producer's own 'joint-second', and we are correcting it here rather than leaving it standing."
+    },
+    {
+      "type": "observed",
+      "text": "WMO reported the month on 12 August 2026, in 'Record-breaking heat and extreme weather continue', read by us on 2026-08-21. It leads with NOAA: 'Globally, it was the joint warmest July on record - tying with July 2024', quoting NOAA that 'July 2026 and 2024 are more likely than not the warmest months on record for the globe since 1850.' It gives C3S as second warmest at 1.47. It states that the ten warmest Julys have all occurred since 2016 with 2023-2026 taking the top four places, that North America, Africa and Asia each had their warmest July on record, and that global sea surface temperatures were the highest ever recorded for July on both NOAA and Copernicus."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading, and WMO printed it themselves in the same article, which is why it belongs in this register rather than ours: 'Individual datasets use slightly different methods to calculate global average near-surface temperatures. The World Meteorological Organization aggregates six internationally recognized datasets for its State of the Global Climate reports. The ranking of individual months is less important than the long-term trend.' Three institutions disagreeing about first-versus-second is not three institutions disagreeing about the climate. All three have July 2026 within 0.05°C of the warmest July ever measured, and that is the whole content of the month."
+    },
+    {
+      "type": "chart",
+      "series": "gistemp-monthly",
+      "caption": "GISTEMP monthly global mean surface temperature anomaly,°C against 1951-1980 (NASA GISS), 1880 to June 2026. The line ends at June on 1.18 because that is where this project's series ends; GISS has since published July 2026 at 1.23, the warmest July in its 147-year record, and that point is not yet on this chart. Expand it and the last decade is the cluster the section above is about - a set of months so close together that which one is 'the warmest' depends on which institution you ask."
+    },
+    {
+      "type": "h",
+      "text": "THE FORECAST THAT ONLY WORKS ON THE NEW INDEX"
+    },
+    {
+      "type": "observed",
+      "text": "CPC issued its ENSO Diagnostic Discussion on 13 August 2026, the date the last round named, and read by us on 2026-08-21. The alert status is an El Nino Advisory and the synopsis is that 'El Nino is strengthening, with a greater than 90% chance of a very strong event during the Northern Hemisphere fall and winter 2026-27.' July index values given in the discussion: +1.4°C in Nino-3.4, +1.7 in Nino-3, +2.9 in Nino-1+2. Subsurface temperature anomalies reached +10.0°C at depth. Both the traditional and equatorial Southern Oscillation indices were near two standard deviations negative during July. The next discussion is scheduled for 10 September 2026."
+    },
+    {
+      "type": "observed",
+      "text": "The sentence this round exists to examine, verbatim from that discussion: 'During the October-December 2026 season, there is a 69% chance of a historic event that would exceed the strength of previous El Nino events dating back to 1950 (+2.5°C or more for a 3-month RONI value).' The threshold is stated in RONI, the Relative Oceanic Nino Index that the United States adopted on 1 February 2026 and that the 10 August round documented. This is the first CPC diagnostic discussion we have read that sets its headline probability against the new index rather than the old one."
+    },
+    {
+      "type": "inference",
+      "text": "Our measurement on CPC's own file, computed 2026-08-21 over all 918 seasons from DJF 1950 to MJJ 2026: the largest RONI value in the entire record is +2.40, in DJF 1983. Second is NDJ 1982 at 2.36, then NDJ 1997 at 2.28, OND 1997 at 2.25 and NDJ 2015 at 2.25. CPC's +2.5 threshold therefore sits 0.10 above every season since 1950. The phrase 'would exceed the strength of previous El Nino events dating back to 1950' is not rhetoric. On this index it is arithmetic, and we can confirm it exactly."
+    },
+    {
+      "type": "inference",
+      "text": "And the same threshold on the index the United States used until February would say nothing of the kind. On the legacy Oceanic Nino Index, +2.5 has already been reached twice - NDJ 2015 at +2.59 and DJF 2016 at +2.50 - so a forecast of '+2.5 or more' would be a forecast of matching 2015-16, not of exceeding the record. The identical number is a record-breaker on one index and a tie on the other. CPC's headline claim is coherent only because the index changed in February, which is exactly why an index change announced in a public information statement and covered nowhere is worth a round of its own."
+    },
+    {
+      "type": "observed",
+      "text": "The weekly file confirms the strengthening and confirms our last round's numbers. Read 2026-08-21 from CPC's weekly Nino-region file on OISSTv2.1 against 1991-2020: the newest week is centred 12 August 2026, with Nino-3.4 at +2.7°C, Nino-3 at +3.2, Nino-1+2 at +4.0 and Nino-4 at +1.0. The week centred 5 August still reads +2.6, +3.1, +4.1 and +1.1, unrevised from what the 10 August round published. Computed by us over all 2,346 weeks since September 1981: +2.7 is the joint fourth-highest weekly Nino-3.4 anomaly ever recorded, tied with three weeks of January 2016 and behind only 18 November 2015 at +3.0, 25 November 2015 at +2.9 and 11 November 2015 at +2.8. The two seasonal index files have not advanced: both the legacy ONI and the RONI file still end at May-June-July 2026, at +1.39 and +0.98, exactly as the 10 August round read them. CPC's weekly slide deck has advanced: the copy read on 2026-08-21 is prepared 17 August 2026, it now names 'Relative Oceanic Nino Index (RONI)' as a section of its own, and it states its SST reconstruction is ERSST.v6 per Huang et al., 2025."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading, and it carries real weight here: a 69% chance is not a forecast that something will happen, and October-December has not happened. Every number in the paragraphs above is either an observation of the last few weeks or a statement about the definition of an index; none of them is evidence about what the Pacific will do. The event could also stall - the November 2015 weekly peak this one is being measured against was reached in November, and it is August. And our own arithmetic on the RONI record is a comparison of a forecast threshold against a historical file, which assumes CPC will score the outcome on the same file. That is likely and it is not guaranteed."
+    },
+    {
+      "type": "observed",
+      "text": "The regional consequence has begun to be published. WMO, 19 August 2026, 'El Nino impacts Greater Horn of Africa', read 2026-08-21: ICPAC issued a new October-to-December outlook at the 74th Greater Horn of Africa Climate Outlook Forum, held in Kigali, Rwanda on 17-18 August with representatives of the region's ten countries. The forecast gives a 90% chance of enhanced rainfall over southern Ethiopia, central to southern Somalia and north-eastern Kenya, and a high chance of seasonal rainfall above 400 mm in parts of central to southern Somalia, central Kenya, the Lake Victoria basin, Burundi, western Rwanda and western Tanzania. October to December contributes up to 70% of annual rainfall in parts of Ethiopia, Kenya and Somalia and up to 40% in parts of Rwanda, Burundi, Tanzania and Uganda. ICPAC names 1997 and 2023 as analogue years. WMO's own El Nino/La Nina Update is due 3 September 2026."
+    },
+    {
+      "type": "h",
+      "text": "THE MELT SEASON THAT NOW HAS A NARRATOR AGAIN"
+    },
+    {
+      "type": "observed",
+      "text": "NSIDC's Sea Ice Today analysis service has returned. Posted 19 August 2026 under the title 'NSIDC's analysis site Sea Ice Today returns', read by us on 2026-08-21: 'With the generous support of the Climate Science and Communication Fund from Surge Climate Talent, NSIDC's Ice Sheets and Sea Ice News and Analysis (ISSINA) is able to start up monthly science assessments for the Sea Ice Today site.' The analyses index confirms the gap: the previous post was 'Sea Ice Today services reduced' on 15 October 2025, so ten months and four days passed with no analysis published. Monthly posts resume; the mid-month posts, the sea ice analysis tool, sea ice volume and the extent spatial comparison tool remain discontinued."
+    },
+    {
+      "type": "inference",
+      "text": "This corrects a claim this project made twice, and the correction is the better outcome. On 8 August we wrote that 'this is the first Arctic minimum in a generation approaching without an institutional narrator', and on 10 August that 'NSIDC publishes no melt-season analysis at all this year'. Both were true when written and neither is true now. The interpretive layer we recorded as lost was restored eleven days later by a philanthropic fund, nine days before the minimum it would have missed. We were right about what the loss cost and wrong about it being permanent, and a project that publishes falsifiable statements has to say which of the two it got wrong."
+    },
+    {
+      "type": "observed",
+      "text": "Arctic sea ice extent on 20 August 2026: 5.294 million square kilometres, read by us on 2026-08-21 from the NSIDC Sea Ice Index version 4 daily Arctic file. That is the 12th lowest 20 August in the 44 years of the record and 0.785 million square kilometres, or 12.9%, below the 1991-2020 median for the date of 6.079. The five lowest 20 Augusts are 2012 at 4.313, 2020 at 4.719, 2019 at 4.756, 2024 at 4.793 and 2016 at 4.976. The days since the last round: 6.031 on 9 August, then 5.896, 5.829, 5.726, 5.676, 5.513, 5.354, 5.334 on the 16th, and 5.294 on the 20th. There is a three-day hole in that run, in both hemispheres: the daily files carry no row at all for 17, 18 or 19 August 2026, north or south, and the 20 August rows carry a non-zero missing-data figure - 0.009 million square kilometres of the Arctic grid and 0.049 of the Antarctic."
+    },
+    {
+      "type": "observed",
+      "text": "The melt accelerated hard, and we measured it. From 9 to 16 August 2026 the Arctic lost 0.697 million square kilometres in seven days, a rate of 0.0996 per day against a 1991-2020 mean for that same window of 0.0626 with a standard deviation of 0.0174 - a z-score of +2.13. Computed by us over all 930 seven-day August windows from 1979 to 2026, that week ranks 20th fastest, and every one of the five windows above it belongs to August 2012. Across the fuller eleven days, 9 to 20 August, the rate was 0.0670 per day against a climatological 0.0589."
+    },
+    {
+      "type": "inference",
+      "text": "Our reading, and it is this project marking its own work. The 10 August round measured the fortnight to 9 August at 1.3 standard deviations slower than the 1991-2020 norm and called the melt season slow. Within one week the same ice was melting at 2.1 standard deviations faster than the norm for that window, and the deficit against the median widened from 9.7% to 12.9%. The slow reading was correctly measured and did not survive seven days. That is the ordinary behaviour of a fortnight rate in August, and it is the argument for publishing rates with their check dates attached rather than as characterisations of a season."
+    },
+    {
+      "type": "inference",
+      "text": "The September projection, re-run on the new data and put on the record to be scored in about four weeks. We regressed each year's September monthly mean on that year's 20 August extent, 1988 to 2025, n = 38: September = -0.8337 + 1.0445 times the 20 August value, r-squared 0.973, residual standard deviation 0.175. Feeding in 5.294 gives a September 2026 monthly mean of 4.70 million square kilometres, one-sigma band 4.52 to 4.87. A cross-check on the mean 20-August-to-September drop over 2007 to 2025 gives 4.67, band 4.51 to 4.84. September 2025 was 4.75. A record low is further out of reach than it was, and that part is arithmetic rather than statistics: matching September 2012's 3.566 from 5.294 on 20 August would need a drop of 1.728, and the largest 20-August-to-September drop in the 38 years we can measure is 0.937."
+    },
+    {
+      "type": "inference",
+      "text": "That projection agrees with the one we published eleven days ago, and we checked the older one rather than assuming it. Re-running the 10 August round's own fit from scratch on today's file reproduces it exactly - September = -1.7702 + 1.0826 times the 9 August value, r-squared 0.935, residual standard deviation 0.273 against the 0.276 published, giving 4.76 from 6.031. So a violently accelerating fortnight moved the central estimate by 0.06 million square kilometres and narrowed the one-sigma band from 0.56 wide to 0.35 wide. The melt rate changed a great deal and the destination barely moved, which is the useful thing to know about August."
+    },
+    {
+      "type": "observed",
+      "text": "Antarctic sea ice extent on 20 August 2026, mid-winter and growing: 16.490 million square kilometres, the 2nd lowest 20 August in 44 years, behind only 2023 at 15.771, and 1.517 million square kilometres or 8.4% below the 1991-2020 median for the date of 18.007. The four lowest 20 Augusts on record are 2023, 2026, 2025 at 16.618 and 2024 at 16.676 - the last four years, consecutively, exactly as the last round found for 9 August. Growth from 9 to 20 August ran at 0.0368 million square kilometres per day against a climatological 0.0355, which is unremarkable."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading of the ice, and there are four. Twelfth lowest of 44 is unremarkable inside the last fifteen years and is above 2012, 2016, 2019, 2020, 2023, 2024 and 2025 on the same date. A single fast week in August is usually a storm or a wind pattern, not a signal, and the eleven-day rate is much closer to normal than the seven-day one - which is a warning about how much a short window can be made to say. The 12.9% deficit is measured against a 1991-2020 median that is already a warmed baseline. And every 2025 and 2026 day comes from AMSR2 while the previous forty-six years do not, which nudges recent values down and flatters exactly the kind of four-consecutive-years finding we report for the Antarctic."
+    },
+    {
+      "type": "chart",
+      "series": "sea-ice-arctic-september",
+      "caption": "Arctic sea ice extent, September monthly mean, million square kilometres (NSIDC Sea Ice Index v4), 1979 to 2025, ending at 4.75. The next point on this line is the one this round predicts at 4.70, one-sigma band 4.52 to 4.87, from a 20 August extent of 5.294 - a slight tightening of the 4.76 predicted on 10 August from the 9 August extent. The record low is 2012 at 3.566. Note the instrument change from DMSP passive microwave to AMSR2 at the start of 2025, near the right-hand end."
+    },
+    {
+      "type": "h",
+      "text": "PUBLISHED IN THE FORTNIGHT"
+    },
+    {
+      "type": "observed",
+      "text": "Nature Climate Change, published 13 August 2026, doi 10.1038/s41558-026-02730-w: 'Failure to track a stable AMOC state under rapid climate change', by Rene M. van Westen, Reyk Borner and Henk A. Dijkstra. From its abstract, read by us on 2026-08-21: the Atlantic Meridional Overturning Circulation 'currently has an estimated global warming threshold for collapse of +4.0°C (uncertainty range 1.4-8°C). However, such a threshold may not be meaningful because AMOC stability depends on the rate of radiative forcing change, not a set temperature.' Using a slow CO2 ramp of +0.5 ppm per year the authors find the AMOC remains stable up to +5.5°C of global warming, while under faster ramps it collapses at substantially lower warming, +2°C. The stabilising mechanism they identify is a coherent adjustment of surface and interior ocean properties under slow forcing, supported by enhanced evaporation and reduced sea ice extent."
+    },
+    {
+      "type": "inference",
+      "text": "Our reading, joining that paper to the number at the top of this project's own chart, and it is a comparison rather than a claim about the ocean. The slow ramp that keeps the AMOC stable to +5.5°C in their model is +0.5 ppm of CO2 per year. Computed by us from NOAA's de-seasonalised Mauna Loa trend on 2026-08-21, the year-on-year rise through 2026 ran +1.97, +2.27, +2.00, +1.48, +1.84, +1.83 and +1.25 ppm for January to July, a mean of +1.81 ppm per year - about three and a half times their stable ramp, and this is one of the slower years of the last decade, against +3.72 in the twelve months to July 2024. If the paper's mechanism holds, the relevant question about the AMOC is not which temperature we reach but how fast we get there, and the observed rate is not in the regime their model calls safe."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading, and it matters more than usual here. That is a single climate model, run in idealised CO2 ramps that no real emissions pathway resembles, and its own headline threshold carries an uncertainty range from 1.4 to 8°C - a factor of nearly six, which is the honest measure of how little is settled. Comparing a model's forcing ramp to an observed Mauna Loa growth rate is a comparison of two different quantities that happen to share a unit; the model's ramp is a control setting, not a forecast. What the paper establishes is that rate matters in this model, which is a statement about model behaviour, and the next thing worth watching is whether it reproduces in others."
+    },
+    {
+      "type": "observed",
+      "text": "World Weather Attribution, 6 August 2026: 'Climate change means extreme fire seasons in Canada are here to stay', read 2026-08-21. More than 3 million hectares burned to date, prompting a Level 4 National Preparedness response, with roughly 94% of the total burned area accumulating in the five weeks between the end of June and the end of July. Over 120 million people in the Midwest and Northeast United States were affected by dangerous air quality, with alerts from Minnesota to New Hampshire. The attribution, on cumulative Daily Severity Rating: in the Northwest Territories the 7-day event had a return period of 2 years today and the 30-day event 6 years, against 50 and 100 years in a climate 1.4°C cooler. In Ontario the 7-day event has a 15-year return period today and was made about 3.5 times more likely, the 30-day event about eight times. The study's combined figure is much lower and it says so: the climate models 'show a much smaller increase in likelihood and intensity', and combining models with observations gives about a factor of 5 in the Northwest Territories for the 7-day event, 2 for the 30-day, and about 2 for both in Ontario. On the 24-month effective precipitation before the fires they find a small, very uncertain observational change and no model trend, and cannot attribute the long-term dry conditions."
+    },
+    {
+      "type": "observed",
+      "text": "World Weather Attribution, 14 August 2026: 'Flood impacts in Assam driven by high exposure and structural vulnerability, amid uncertain rainfall trends', read 2026-08-21 - and it is a null result. Between late June and early August 2026 repeated flooding across Upper Assam and the hill catchments of Nagaland and Arunachal Pradesh affected more than 500,000 people, killed at least 99 in Assam alone, and submerged more than 45,000 hectares of cropland; the 18-21 July spell inundated 16 districts and 794 villages. The finding: both the 3-day and 30-day rainfall totals have estimated return periods of less than two years, the observations show no trend on the best estimates, and in models 'human-induced warming of 1.4°C has not materially altered the likelihood and intensity of this year's heavy rainfall'. The study attributes the disaster instead to exposure and vulnerability, citing a review of 35 studies finding that unplanned urbanisation, deforestation and poor drainage now outweigh natural rainfall variability in explaining flood frequency."
+    },
+    {
+      "type": "inference",
+      "text": "Our reading of those two studies together, which is why both are here rather than only the dramatic one: published eight days apart by the same group, one found a large attributable signal and one found none, and the fire study then reported a combined estimate several times smaller than its own observational headline. An attribution service that only ever returns large multipliers would be worth very little, because there would be no way to tell a real finding from the method. These two, side by side, are the evidence that the method can return a small answer and a null answer and publish them at the same prominence. The Assam study's honesty about low station density and limited model skill in the region is the same discipline pointed at itself."
+    },
+    {
+      "type": "mundane",
+      "text": "The boring reading of the null result, and it is the one the study leads with: nothing about Assam's 99 deaths becomes less real because the rainfall was ordinary. A flood with a return period under two years killed a hundred people and displaced hundreds of thousands, which is a statement about embankments, drainage, land use and where people have been made to live, not about the atmosphere. 'Not attributable to climate change' and 'not a disaster' are entirely different sentences, and the first one is often the more damning of the two."
+    },
+    {
+      "type": "h",
+      "text": "THE AIR, WHICH DID NOT MOVE"
+    },
+    {
+      "type": "observed",
+      "text": "NOAA's Mauna Loa record is unchanged and has not advanced. Read 2026-08-21 from the co2_mm_mlo.txt data file: July 2026 still stands at 429.12 ppm with a de-seasonalised value of 428.83, byte-identical to what the 8 August round published, and August will not appear until early September. The globally averaged marine surface series still ends at May 2026 on 428.73 ppm, exactly where it stood two weeks ago. Our own co2-mauna-loa-monthly series matches NOAA at every 2026 point."
+    },
+    {
+      "type": "h",
+      "text": "WHAT THIS ROUND COULD NOT ESTABLISH"
+    },
+    {
+      "type": "p",
+      "text": "Six things, named rather than smoothed over. We could not read NCEI's July report as prose: the monthly-report page is a JavaScript shell that returns HTTP 200 whether or not a report stands behind it, so every NCEI figure here comes from the Climate at a Glance series instead, and WMO's summary is our only witness to what the report itself says about regional records. We could not extract the text of the C3S July press-release PDF, whose custom font encoding defeated our reader, so the C3S ranking is taken from the bulletin web page rather than the release. We have no independent HadCRUT5 or Berkeley Earth reading for July 2026, so this round's three-way disagreement is a three-way disagreement and not the six-dataset picture WMO aggregates. We have not established why the C3S data file and the C3S web page state different rankings from the same number, only that they do and that the web page's reasoning is printed and sound. Our comparison of the AMOC paper's +0.5 ppm ramp to the observed Mauna Loa rate sets a model control setting beside an observation, which is a useful scale check and not a like-for-like test. And the three missing days in the sea ice files, 17 to 19 August, are recorded as an absence with no explanation attached, because NSIDC published none that we found."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NOAA NCEI Climate at a Glance - global land and ocean July average temperature departures, 1850 to 2026 (July 2026 at +1.18 degrees C, published since our 9 August check)",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/land_ocean/1/7/1850-2026/data.json"
+    },
+    {
+      "title": "NOAA NCEI Monthly Climate Reports - global report for July 2026 (HTTP 200 on 2026-08-21, but a JavaScript shell)",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202607"
+    },
+    {
+      "title": "NOAA NCEI - NOAAGlobalTemp v6 timeseries directory, whose newest global monthly file ends December 2025",
+      "url": "https://www.ncei.noaa.gov/data/noaa-global-surface-temperature/v6/access/timeseries/"
+    },
+    {
+      "title": "NASA GISS - GISTEMP v4 global land-ocean temperature index table (GLB.Ts+dSST.txt), source line advanced to 1880-07/2026, July 2026 at 1.23",
+      "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt"
+    },
+    {
+      "title": "Copernicus C3S - Surface air temperature for July 2026, published 10 August 2026 ('joint-second warmest July globally, tied with July 2024')",
+      "url": "https://climate.copernicus.eu/surface-air-temperature-july-2026"
+    },
+    {
+      "title": "Copernicus C3S Climate Bulletins web page, read 2026-08-21",
+      "url": "https://climate.copernicus.eu/climate-bulletin"
+    },
+    {
+      "title": "C3S Bulletin July 2026 - global July surface air temperature anomalies against 1850-1900 (data CSV), unrevised at 1.4711 degrees C",
+      "url": "https://sites.ecmwf.int/data/c3sci/bulletin/202607/temperature/C3S_Bulletin_temp_202607_Fig2a_timeseries_anomalies_ref1850-1900_global_July_DATA.csv"
+    },
+    {
+      "title": "C3S Climate Bulletin file server index (HTTP 200), whose newest month is still 202607 on 2026-08-21 - the 202608 directory returns HTTP 404",
+      "url": "https://sites.ecmwf.int/data/c3sci/bulletin/"
+    },
+    {
+      "title": "WMO, 12 August 2026: Record-breaking heat and extreme weather continue",
+      "url": "https://wmo.int/media/news/record-breaking-heat-and-extreme-weather-continue"
+    },
+    {
+      "title": "WMO, 19 August 2026: El Nino impacts Greater Horn of Africa (ICPAC outlook from GHACOF74, Kigali, 17-18 August)",
+      "url": "https://wmo.int/media/news/el-nino-impacts-greater-horn-of-africa"
+    },
+    {
+      "title": "NOAA CPC - ENSO Diagnostic Discussion, 13 August 2026 (El Nino Advisory; 69% chance of a +2.5 RONI historic event in October-December; next issue 10 September 2026)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+    },
+    {
+      "title": "NOAA CPC - Relative Oceanic Nino Index (RONI), seasonal values 1950 to present; record maximum +2.40 in DJF 1983",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt"
+    },
+    {
+      "title": "NOAA CPC - legacy Oceanic Nino Index, seasonal values 1950 to present; +2.59 in NDJ 2015 and +2.50 in DJF 2016",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt"
+    },
+    {
+      "title": "NOAA CPC - weekly Nino region SST and anomalies, OISSTv2.1 against 1991-2020; newest week centred 12 August 2026",
+      "url": "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for"
+    },
+    {
+      "title": "NOAA CPC - ENSO: Recent Evolution, Current Status and Predictions, weekly deck prepared 17 August 2026 (PDF)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf"
+    },
+    {
+      "title": "NSIDC Sea Ice Today - analyses index, showing the 19 August 2026 return post after the 15 October 2025 reduction notice",
+      "url": "https://nsidc.org/sea-ice-today/analyses"
+    },
+    {
+      "title": "NSIDC Sea Ice Today - service status page, read 2026-08-21",
+      "url": "https://nsidc.org/sea-ice-today"
+    },
+    {
+      "title": "NSIDC Sea Ice Index v4 - Arctic daily extent file (N_seaice_extent_daily_v4.0.csv), ending 20 August 2026 with no rows for 17-19 August",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02135/north/daily/data/N_seaice_extent_daily_v4.0.csv"
+    },
+    {
+      "title": "NSIDC Sea Ice Index v4 - Antarctic daily extent file (S_seaice_extent_daily_v4.0.csv), ending 20 August 2026",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02135/south/daily/data/S_seaice_extent_daily_v4.0.csv"
+    },
+    {
+      "title": "Nature Climate Change, 13 August 2026: Failure to track a stable AMOC state under rapid climate change (van Westen, Borner and Dijkstra), doi 10.1038/s41558-026-02730-w",
+      "url": "https://www.nature.com/articles/s41558-026-02730-w"
+    },
+    {
+      "title": "World Weather Attribution, 6 August 2026: Climate change means extreme fire seasons in Canada are here to stay",
+      "url": "https://www.worldweatherattribution.org/climate-change-canada-wildfires-2026/"
+    },
+    {
+      "title": "World Weather Attribution, 14 August 2026: Flood impacts in Assam driven by high exposure and structural vulnerability, amid uncertain rainfall trends",
+      "url": "https://www.worldweatherattribution.org/flood-impacts-in-assam-driven-by-high-exposure-and-structural-vulnerability-amid-uncertain-rainfall-trends/"
+    },
+    {
+      "title": "World Weather Attribution - analyses index, read 2026-08-21",
+      "url": "https://www.worldweatherattribution.org/"
+    },
+    {
+      "title": "NOAA GML - Mauna Loa monthly mean CO2 data file (co2_mm_mlo.txt), still ending July 2026 at 429.12 ppm",
+      "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt"
+    },
+    {
+      "title": "NOAA GML - globally averaged marine surface monthly mean CO2 (co2_mm_gl.txt), still ending May 2026",
+      "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_gl.txt"
+    }
+  ],
+  "knowledge": "Closed almost every thread the 10 August round left open. All three surface producers have now published July 2026 and no two rank it alike: NOAA NCEI has it first at +1.18 degrees C against 1901-2000, tied with July 2024 in a 177-year record; NASA GISS has it first outright at +1.23 against 1951-1980, warmest of 147 Julys; and Copernicus, on a page published 10 August, calls it joint-second with 2024 behind 2023, because the 0.01 degrees C gap is inside the noise - which is precisely what this project's own 8 August mundane block said before C3S said it, and which supersedes that round's 'third-warmest' headline. Established that CPC's 13 August ENSO discussion raises the forecast to a greater than 90% chance of a very strong event and a 69% chance of a historic one, and that its stated threshold of +2.5 for a 3-month RONI value exceeds every one of the 918 seasons in the RONI file, whose record maximum is +2.40 in DJF 1983 - while the same number on the legacy ONI would merely tie 2015-16's +2.59 and +2.50, so the headline claim is coherent only on the index the United States adopted in February. Recorded that NSIDC's Sea Ice Today analysis service returned on 19 August after ten months, correcting this project's own twice-published claim that the melt season had no institutional narrator. Measured the Arctic at 5.294 million square kilometres on 20 August, 12th lowest of 44 and 12.9 percent below the 1991-2020 median, having melted at 2.13 standard deviations FASTER than normal over 9 to 16 August - the 20th fastest seven-day August window in 930 - which overturns the 10 August round's finding of a slow season while moving the September projection only from 4.76 to 4.70, band 4.52 to 4.87. Antarctic winter extent is second lowest for the date with the four lowest 20 Augusts again being the last four years consecutively. Published the AMOC rate-tipping result (stable to +5.5 degrees C under a +0.5 ppm per year ramp, collapsing at +2 degrees C under faster ones) beside the observed Mauna Loa growth of +1.81 ppm per year, and set World Weather Attribution's large Canadian fire signal beside its null Assam result as evidence that the method can return a small answer."
+}

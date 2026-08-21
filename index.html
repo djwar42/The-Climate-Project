@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE CLIMATE PROJECT - climate data, modelling and predictions</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <script>
+      (function(){try{
+        var k='climate-theme';var s=null;
+        try{s=window.localStorage.getItem(k);}catch(e){}
+        if(s!=='dark'&&s!=='light'){s='light';try{window.localStorage.setItem(k,s);}catch(e){}}
+        document.documentElement.classList.toggle('dark',s==='dark');
+        var fk='climate-theme-family';var f=null;
+        try{f=window.localStorage.getItem(fk);}catch(e){}
+        if(f!=='ref'){document.documentElement.classList.add('theme-vivid');}
+        try{if(window.localStorage.getItem('climate-motion')==='off'){document.documentElement.classList.add('cm-off');}}catch(e){}
+      }catch(e){}})();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Moderustic:wght@400;500&family=Montserrat:wght@500;700&display=swap" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Moderustic:wght@400;500&family=Montserrat:wght@500;700&display=swap" />
+
+    <style>
+      @font-face {
+        font-family: 'Montserrat Fallback';
+        src: local('Arial'), local('Helvetica'), local('Liberation Sans');
+        size-adjust: 116.75%;
+        ascent-override: 82.91%;
+        descent-override: 21.50%;
+        line-gap-override: 0%;
+      }
+      @font-face {
+        font-family: 'Moderustic Fallback';
+        src: local('Arial'), local('Helvetica'), local('Liberation Sans');
+        size-adjust: 109.11%;
+        ascent-override: 91.65%;
+        descent-override: 22.91%;
+        line-gap-override: 0%;
+      }
+      @font-face {
+        font-family: 'Plex Mono Fallback';
+        src: local('Menlo'), local('Consolas'), local('DejaVu Sans Mono'), local('Courier New');
+        size-adjust: 99.65%;
+        ascent-override: 102.86%;
+        descent-override: 27.60%;
+        line-gap-override: 0%;
+      }
+
+      :root:root {
+        --sui-font-display: Montserrat, 'Montserrat Fallback', Moderustic, Helvetica, Arial, sans-serif;
+        --sui-font-sans: Moderustic, 'Moderustic Fallback', Helvetica, Arial, sans-serif;
+        --sui-font-mono: 'IBM Plex Mono', 'Plex Mono Fallback', Moderustic, ui-monospace, Menlo, monospace;
+      }
+
+      :root:root {
+        font-variant-numeric: tabular-nums;
+        font-feature-settings: 'tnum' 1;
+      }
+      p, li, blockquote {
+        font-variant-numeric: normal;
+        font-feature-settings: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

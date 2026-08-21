@@ -1,0 +1,246 @@
+:root {
+
+  --cm-ease: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  --cm-t1: 0.25s;
+  --cm-t2: 0.3s;
+  --cm-t3: 0.4s;
+  --cm-t4: 0.5s;
+
+  --cm-stagger: 50ms;
+  --cm-delay: 0.25s;
+
+  --cm-d: 0ms;
+
+  --cm-wash: rgba(42, 39, 34, 0.05);
+  --cm-paper: #f4f0e4;
+}
+
+.cm-hover {
+  transition: opacity var(--cm-t2) var(--cm-ease), color var(--cm-t1) var(--cm-ease),
+              outline-offset var(--cm-t1) var(--cm-ease);
+}
+.cm-hover:hover { opacity: 0.72; }
+
+.cm-nudge { transition: transform var(--cm-t3) var(--cm-ease), outline-offset var(--cm-t1) var(--cm-ease); }
+.cm-nudge:hover { transform: translateY(-1px); }
+
+.cm-walk { transition: transform var(--cm-t3) var(--cm-ease); }
+.cm-row:hover .cm-walk,
+.cm-walk:hover { transform: translateX(4px); }
+
+.cm-press { transition: transform var(--cm-t1) var(--cm-ease); }
+.cm-press:active { transform: translateY(1px); }
+
+.cm-link {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 0% 1px;
+  padding-bottom: 2px;
+  transition: background-size var(--cm-t3) var(--cm-ease), color var(--cm-t1) var(--cm-ease),
+              outline-offset var(--cm-t1) var(--cm-ease);
+}
+.cm-link:hover,
+.cm-link:focus-visible {
+  background-position: 0 100%;
+  background-size: 100% 1px;
+}
+
+.cm-link--on {
+  background-position: 0 100%;
+  background-size: 100% 2px;
+}
+
+.cm-link--2 { padding-bottom: 3px; }
+.cm-link--2:hover,
+.cm-link--2:focus-visible { background-size: 100% 2px; }
+
+.cm-row {
+  transition: background-color var(--cm-t1) var(--cm-ease), color var(--cm-t1) var(--cm-ease),
+              outline-offset var(--cm-t1) var(--cm-ease);
+}
+.cm-row:hover { background-color: var(--cm-wash); }
+
+.cm-row { position: relative; }
+.cm-row::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--cm-bar, currentColor);
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: transform var(--cm-t3) var(--cm-ease);
+  pointer-events: none;
+}
+.cm-row:hover::before { transform: scaleY(1); }
+.cm-row--nobar::before { content: none; }
+
+.cm-chip {
+  transition: background-color var(--cm-t1) var(--cm-ease),
+              color var(--cm-t1) var(--cm-ease),
+              border-color var(--cm-t1) var(--cm-ease),
+              opacity var(--cm-t2) var(--cm-ease),
+              outline-offset var(--cm-t1) var(--cm-ease);
+}
+
+.cm-card {
+  transition: border-color var(--cm-t1) var(--cm-ease),
+              background-color var(--cm-t1) var(--cm-ease),
+              transform var(--cm-t3) var(--cm-ease),
+              outline-offset var(--cm-t1) var(--cm-ease);
+}
+.cm-card:hover { transform: translateY(-2px); }
+
+:where(a, button, [tabindex], summary, input, select, textarea) {
+  transition: outline-offset var(--cm-t1) var(--cm-ease);
+}
+:where(a, button, [tabindex], summary):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+:where(a, button, [tabindex], summary):not(:focus-visible) {
+  outline-offset: 6px;
+}
+
+.cm-armed { opacity: 0 !important; }
+.cm-armed.cm-a-rise { transform: translateY(10px) !important; }
+.cm-armed.cm-a-wipe { opacity: 1 !important; clip-path: inset(0 100% 0 0) !important; }
+.cm-armed.cm-a-rule { opacity: 1 !important; transform: scaleX(0) !important; transform-origin: 0 50%; }
+.cm-armed.cm-a-art  { opacity: 0 !important; }
+
+.cm-in { animation-delay: var(--cm-d, 0ms); animation-fill-mode: both; }
+.cm-in.cm-a-rise { animation-name: cmRise; animation-duration: var(--cm-t3); animation-timing-function: var(--cm-ease); }
+.cm-in.cm-a-fade { animation-name: cmFade; animation-duration: var(--cm-t2); animation-timing-function: var(--cm-ease); }
+.cm-in.cm-a-wipe { animation-name: cmWipe; animation-duration: var(--cm-t4); animation-timing-function: var(--cm-ease); }
+.cm-in.cm-a-rule { animation-name: cmRule; animation-duration: var(--cm-t3); animation-timing-function: var(--cm-ease); }
+.cm-in.cm-a-art  { animation-name: cmFade; animation-duration: var(--cm-t2); animation-timing-function: var(--cm-ease); }
+
+@keyframes cmRise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes cmFade { from { opacity: 0; } to { opacity: 1; } }
+
+@keyframes cmWipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes cmRule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.cm-in.cm-a-art > svg > * { animation: cmFade var(--cm-t2) var(--cm-ease) both; }
+.cm-in.cm-a-art > svg > *:nth-child(1)  { animation-delay: calc(var(--cm-d, 0ms) + 0 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(2)  { animation-delay: calc(var(--cm-d, 0ms) + 1 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(3)  { animation-delay: calc(var(--cm-d, 0ms) + 2 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(4)  { animation-delay: calc(var(--cm-d, 0ms) + 3 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(5)  { animation-delay: calc(var(--cm-d, 0ms) + 4 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(6)  { animation-delay: calc(var(--cm-d, 0ms) + 5 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(7)  { animation-delay: calc(var(--cm-d, 0ms) + 6 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(8)  { animation-delay: calc(var(--cm-d, 0ms) + 7 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(n+9)  { animation-delay: calc(var(--cm-d, 0ms) + 8 * var(--cm-stagger)); }
+.cm-in.cm-a-art > svg > *:nth-child(n+13) { animation-delay: calc(var(--cm-d, 0ms) + 11 * var(--cm-stagger)); }
+
+.cm-spanrail {
+  transform-origin: 0 50%;
+  transform: scaleX(1);
+}
+.cm-armed.cm-spanrail { transform: scaleX(0); }
+.cm-in.cm-spanrail {
+  animation-name: cmRule;
+  animation-timing-function: var(--cm-ease);
+  animation-duration: calc(var(--cm-t2) + (var(--cm-t4) - var(--cm-t2)) * var(--cm-span, 0));
+}
+
+.cm-prov { position: relative; display: inline-block; }
+.cm-prov__src {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+  z-index: 6;
+  opacity: 0;
+  transform: translateY(-3px);
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity var(--cm-t2) var(--cm-ease), transform var(--cm-t3) var(--cm-ease);
+}
+.cm-prov:hover .cm-prov__src,
+.cm-prov:focus-within .cm-prov__src {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.cm-page { animation: cmPageIn var(--cm-t2) var(--cm-ease) both; }
+@keyframes cmPageIn { from { opacity: 0.35; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+.cm-nav-in { animation: cmFade var(--cm-t1) var(--cm-ease) both; }
+
+.cm-count { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1; }
+
+html.cm-smooth { scroll-behavior: smooth; }
+
+html.cm-off *,
+html.cm-off *::before,
+html.cm-off *::after {
+  transition: none !important;
+  animation: none !important;
+}
+html.cm-off .cm-armed {
+  opacity: 1 !important;
+  transform: none !important;
+  clip-path: none !important;
+}
+html.cm-off { scroll-behavior: auto !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+
+  .cm-page,
+  .cm-in,
+  .cm-in.cm-a-rise,
+  .cm-in.cm-a-fade,
+  .cm-in.cm-a-wipe,
+  .cm-in.cm-a-rule,
+  .cm-in.cm-a-art,
+  .cm-in.cm-a-art > svg > *,
+  .cm-in.cm-spanrail,
+  .cm-nav-in {
+    animation: none !important;
+  }
+  .cm-armed,
+  .cm-armed.cm-a-rise,
+  .cm-armed.cm-a-wipe,
+  .cm-armed.cm-a-rule,
+  .cm-armed.cm-a-art,
+  .cm-armed.cm-spanrail {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+  .cm-prov__src { transition: none !important; }
+  html, html.cm-smooth { scroll-behavior: auto !important; }
+}
+
+@media print {
+  .cm-armed,
+  .cm-armed.cm-a-wipe,
+  .cm-armed.cm-a-rule,
+  .cm-armed.cm-spanrail {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+}
+
+@media (forced-colors: active) {
+  :where(a, button, [tabindex], summary):focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+}

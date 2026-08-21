@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Montserrat:wght@700&family=Moderustic:wght@400;500&display=swap');
+
+:root {
+
+  --sui-blue: #a64b52;
+  --sui-blue-hover: #bd6067;
+  --sui-blue-deep: #7e363c;
+  --sui-blue-wash: rgba(166, 75, 82, 0.16);
+
+  --sui-white: #ffffff;
+  --sui-paper: #f4f4f4;
+  --sui-warm-white: #fcfbf9;
+  --sui-ink: #323234;
+  --sui-black: #000000;
+
+  --sui-grey-0: #ffffff;
+  --sui-grey-1: #f4f4f4;
+  --sui-grey-2: #e8e8e8;
+  --sui-grey-3: #b9b9ba;
+  --sui-grey-4: #8a8d94;
+  --sui-grey-5: #6f6f72;
+  --sui-grey-6: #4a4a4d;
+  --sui-grey-7: #323234;
+  --sui-hair: rgba(50, 50, 52, 0.14);
+
+  --sui-card-taupe: #a69385;
+  --sui-card-clay: #a64b52;
+  --sui-card-slate: #7a8f92;
+  --sui-pill: #e8e8e8;
+  --sui-ghost: #b9b9ba;
+  --sui-heading-ghost: rgba(50, 50, 52, 0.55);
+
+  --sui-positive: #00d084;
+  --sui-warning: #fcb900;
+  --sui-danger: #e8324a;
+  --sui-info: #7a8f92;
+
+  --sui-radius: 0px;
+  --sui-u: 4px;
+  --sui-hairline: 1px;
+  --sui-cta-pad: 16px;
+  --sui-card-pad: 32px;
+
+  --sui-font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --sui-font-display: 'Montserrat', Helvetica, Arial, sans-serif;
+  --sui-font-sans: 'Moderustic', system-ui, sans-serif;
+  --sui-tracking: 0.1em;
+  --sui-size-xs: 12px;
+  --sui-size-sm: 14px;
+  --sui-size-md: 16px;
+  --sui-size-lg: 20px;
+}
+
+:root {
+  --sui-bg: var(--sui-paper);
+  --sui-fg: var(--sui-ink);
+  --sui-line: var(--sui-black);
+}
+.dark {
+  color-scheme: dark;
+  --sui-bg: #323234;
+  --sui-fg: var(--sui-paper);
+  --sui-line: #000000;
+}
+
+.theme-vivid {
+
+  --sui-blue: #ff3c1a;
+  --sui-blue-hover: #ff5a38;
+  --sui-blue-deep: #cc2a0f;
+  --sui-blue-wash: rgba(255, 60, 26, 0.14);
+
+  --sui-white: #f7f4ec;
+  --sui-paper: #e9e4d8;
+  --sui-warm-white: #f2eee4;
+  --sui-ink: #2a2722;
+  --sui-black: #1c1a16;
+
+  --sui-grey-0: #f7f4ec;
+  --sui-grey-1: #e9e4d8;
+  --sui-grey-2: #ddd6c6;
+  --sui-grey-3: #b7ae9c;
+  --sui-grey-4: #8c8474;
+  --sui-grey-5: #6b6456;
+  --sui-grey-6: #4a4438;
+  --sui-grey-7: #2a2722;
+  --sui-hair: rgba(42, 39, 34, 0.16);
+
+  --sui-card-taupe: #b7a68f;
+  --sui-card-clay: #9f4a38;
+  --sui-card-slate: #6f7a63;
+  --sui-pill: #ddd6c6;
+  --sui-ghost: #b7ae9c;
+  --sui-heading-ghost: rgba(42, 39, 34, 0.55);
+
+  --sui-positive: #4f8a5b;
+  --sui-warning: #c8912f;
+  --sui-danger: #b23a2e;
+  --sui-info: #6f7a63;
+
+  --sui-bg: var(--sui-paper);
+  --sui-fg: var(--sui-ink);
+  --sui-line: var(--sui-black);
+}
+.theme-vivid.dark {
+  color-scheme: dark;
+  --sui-bg: #201d18;
+  --sui-fg: var(--sui-paper);
+  --sui-line: #0f0d0a;
+}
+
+:root {
+  --sui-gold: #9a7b34;
+  --sui-gold-soft: rgba(154, 123, 52, 0.42);
+  --sui-parchment-tint: rgba(50, 50, 52, 0.04);
+  --sui-vignette: rgba(50, 50, 52, 0.05);
+  --sui-rule-space: 3px;
+}
+.theme-vivid {
+  --sui-gold: #b0893f;
+  --sui-gold-soft: rgba(176, 137, 63, 0.5);
+  --sui-parchment-tint: rgba(42, 39, 34, 0.05);
+  --sui-vignette: rgba(42, 39, 34, 0.07);
+
+  --sui-parchment-field:
+    radial-gradient(120% 90% at 12% 8%, rgba(176,137,63,0.06), transparent 60%),
+    radial-gradient(120% 100% at 88% 96%, rgba(159,74,56,0.05), transparent 55%),
+    repeating-linear-gradient(0deg, transparent 0 27px, rgba(42,39,34,0.018) 27px 28px),
+    repeating-linear-gradient(90deg, transparent 0 27px, rgba(42,39,34,0.015) 27px 28px);
+}
+.theme-vivid.dark {
+  --sui-gold: #c9a24e;
+  --sui-parchment-field:
+    radial-gradient(120% 90% at 12% 8%, rgba(201,162,78,0.07), transparent 60%),
+    radial-gradient(120% 100% at 88% 96%, rgba(184,92,72,0.06), transparent 55%);
+}
+
+:root {
+
+  --sui-duo-vermilion: #ff3b1d;
+  --sui-duo-fuchsia: #ff2d8b;
+  --sui-duo-petrol: #00b3a4;
+  --sui-duo-plum: #6a1f7a;
+  --sui-duo-goldlime: #e4e400;
+  --sui-duo-violet: #7b1fe0;
+  --sui-duo-olive-black: #1f2a16;
+  --sui-duo-rust: #ff5a2e;
+
+  --sui-duo-paper: var(--sui-paper);
+  --sui-duo-ink: var(--sui-duo-vermilion);
+
+  --sui-tex-grain-url: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  --sui-tex-grain-opacity: 0.5;
+  --sui-tex-halftone-size: 4px;
+  --sui-tex-scan-size: 3px;
+  --sui-tex-scan-alpha: 0.10;
+}
